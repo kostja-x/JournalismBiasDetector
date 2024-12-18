@@ -1,6 +1,7 @@
 
 # JournalismBiasDetector
 
+<<<<<<< HEAD
 **JournalismBiasDetector** project was the practical part of my master's thesis! This tool helps you analyze journalistic texts for various quality aspects, potential manipulation tactics, and underlying bias. It’s designed to be run locally with a Streamlit interface and a local LLM (via Ollama), ensuring you have full control over your data and models..
 
 ## What Does It Do?
@@ -87,10 +88,44 @@ JournalismBiasDetector/
    ```bash
    python3 -m venv venv
    source venv/bin/activate
+=======
+A comprehensive tool to analyze journalistic texts for quality, potential manipulation techniques, and bias. The application uses local LLMs (via Ollama) and provides recommendations, performance metrics, and manual evaluation feedback loops.
+
+## Features
+- Analyze text from URL, direct input, or uploaded files (TXT, DOCX, PDF)
+- Assess journalistic quality, detect manipulation techniques, and identify bias
+- Provide improvement recommendations
+- Manual evaluation to adjust internal weighting
+- Performance metrics and export of JSON results
+- ChromaDB integration for similarity queries on previous analyses
+
+## Requirements
+- Python 3.10 or newer
+- Ollama installed and running locally
+- A local model (e.g. mistral) available in Ollama
+
+## Setup Instructions
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/GITHUB_USERNAME/JournalismBiasDetector.git
+   cd JournalismBiasDetector
+   ```
+
+2. Create and activate a virtual environment:
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate
+   ```
+
+3. Install dependencies:
+   ```bash
+>>>>>>> d97a892 (Fix folder naming and add evaluation data)
    pip install --upgrade pip
    pip install -r requirements.txt
    ```
 
+<<<<<<< HEAD
 3. **Environment variables:**
    ```bash
    cp .env.example .env
@@ -262,3 +297,29 @@ If you plan to share this project publicly, include a LICENSE file (e.g., MIT Li
 ---
 
 **You’re all set!** Enjoy exploring how news coverage might subtly shape narratives, and feel free to adapt the tool to suit your needs.
+=======
+4. Set environment variables (if needed):
+   ```bash
+   cp .env.example .env
+   ```
+
+5. Run the application:
+   ```bash
+   streamlit run src/main.py
+   ```
+
+   Open the provided URL in your browser.
+
+## Ollama Setup
+
+See `docs/instructions_for_ollama.md` for details.
+
+## Output Structure
+
+- `output/analyses/`: JSON files with analysis results
+- `output/metrics/`: JSON files with metrics history
+
+## Further Development
+
+See code comments and inline documentation.
+>>>>>>> d97a892 (Fix folder naming and add evaluation data)
