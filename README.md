@@ -43,10 +43,9 @@ JournalismBiasDetector/
 ├─ docs/
 │  ├─ instructions_for_ollama.md
 │  ├─ attachments/
-│  │  └─ sample_article.pdf
+│  │  └─ Eval.json (comming soon..)
 │  └─ previous_attempts/       
-│     ├─ attempt_1_notes.txt
-│     ├─ attempt_2_notes.txt
+│     ├─ comming soon..
 │     └─ ...
 ├─ output/
 │  ├─ analyses/
