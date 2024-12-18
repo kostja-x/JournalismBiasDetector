@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "timestamp": "2024-12-16T09:36:51.438944",
+    "version": "2.0",
+    "models_used": [
+      "llama3.2:latest",
+      "mistral:latest"
+    ]
+  },
+  "analysis_results": {
+    "journalistic_quality": {
+      "response": " ASPEKT: Faktentreue\n   SCORE: 0.85\n   BEGRÜNDUNG: Die Berichterstattung ist in den gegebenen Tatsachen begründet und verzichtet auf spekulative Einwände oder unbelegte Aussagen. Allerdings fehlt eine Quelle für die Angabe, dass der Süßigkeitenhersteller Ferrero in Kritik steht.\n\n   ASPEKT: Ausgewogenheit\n   SCORE: 0.75\n   BEGRÜNDUNG: Die Berichterstattung ist insgesamt ausgewogen, bietet jedoch keinen Gegenthesen oder Widerspruch zu den Angaben des Herstellers. Es fehlt eine Sichtweise von Kunden oder Konkurrenten, die möglicherweise andere Meinungen haben könnten.\n\n   ASPEKT: Quellenangaben\n   SCORE: 1.0\n   BEGRÜNDUNG: Die Berichterstattung citeet eine offizielle Stellungnahme der fritz-kola GmbH als primäre Quelle für die Angaben über die Rezeptänderung und das Motiv dahinter. Weitere Quellen werden nicht angeführt, da sie für zusätzliche Informationen nicht erforderlich sind.\n\n   ASPEKT: Neutralität\n   SCORE: 0.85\n   BEGRÜNDUNG: Die Berichterstattung ist insgesamt neutral und bietet keinen Werturteil, sondern stellt lediglich die Tatsachen dar. Es gibt jedoch eine subjektive Beurteilung durch den Verfasser, indem er von dem Schritt als überfälliger begrüßt wird und spekuliert, dass andere Marken möglicherweise ebenfalls ihre Rezepturen ändern könnten."
+    },
+    "manipulation_analysis": {
+      "response": " ASPEKT: Emotionalisierung\n   SCORE: 0.6\n   BEGRÜNDUNG: Der Artikel emotionalisiert den Leser durch die Verwendung von Worten wie \"beliebteste Marke\", \"alternativen Marke\", \"Fritzschützer\" und \"öffentlichen Druck\". Dies schafft eine Stimmung der Sympathie für Fritz-Kola und die Empathie mit den Befürwortern der Veränderung.\n\n   ASPEKT: Suggestion\n   SCORE: 0.8\n   BEGRÜNDUNG: Der Artikel suggeriert, dass sich durch die Änderung der Rezeptur nicht am Geschmack etwas ändern wird und dass Fritz-Kola erstmals komplett vegan ist, was auf den Leser anspielt, um ihm zu suggerieren, dass er ebenfalls für das vegane Leben stehen soll.\n\n   ASPEKT: Framing\n   SCORE: 0.9\n   BEGRÜNDUNG: Der Artikel frameht die Veränderung der Rezeptur von Fritz-Kola als positiv, indem er betont, dass die Änderung dem Marktentwicklungsbedürfnis entspricht und sich am Geschmack praktisch nichts ändern wird. Er suggeriert auch, dass die Veränderung ein Zeichen für eine progressive und zukunftsorientierte Marke ist.\n\n   ASPEKT: Auslassung\n   SCORE: 0.7\n   BEGRÜNDUNG: Der Artikel vermeidet explizite Diskussionen um die Ursachen der Änderung der Rezeptur von Fritz-Kola, wie z.B. ethische Bedenken oder die Schwierigkeiten bei der Beschaffung des Namens \"Fritz\". Diese Auslassungen lassen den Leser zu eigenen Schlüssen kommen und können eine Stimmung der Empörung oder Skepsis beim Leser hervorrufen."
+    },
+    "bias_detection": {
+      "response": " ASPEKT: Politischer Bias\n   SCORE: 0.0\n   BEGRÜNDUNG: Der Artikel berichtet lediglich über eine Änderung der Rezeptur von Fritz-Kola und enthält keine politischen Aussagen oder Analyse, sodass ein politischer Bias nicht erkennbar ist.\n\n   ASPEKT: Ideologische Färbung\n   SCORE: 0.0\n   BEGRÜNDUNG: Der Artikel beschränkt sich auf eine Berichterstattung über die Veränderung der Rezeptur von Fritz-Kola und gibt keine ideologischen Ausrichtungen wieder, sodass auch hier kein ideologischer Bias feststellbar ist.\n\n   ASPEKT: Wirtschaftliche Interessen\n   SCORE: 0.5\n   BEGRÜNDUNG: Der Artikel erwähnt den möglichen Einfluss der ethischen Bedenken und der Beschaffung von Fritz auf die Rezeptänderung sowie einen möglichen Trend in der Branche, was möglicherweise auf wirtschaftliche Interessen hindeutet.\n\n   ASPEKT: Kulturelle Voreingenommenheit\n   SCORE: 0.0\n   BEGRÜNDUNG: Der Artikel beschränkt sich lediglich auf eine Berichterstattung über die Veränderung der Rezeptur von Fritz-Kola und gibt keine kulturellen Ausrichtungen wieder, sodass auch hier kein kultureller Voreingenommenheit feststellbar ist."
+    },
+    "neutrality_analysis": {
+      "response": " ASPEKT: Faktentreue\n   SCORE: 0.85\n   BEGRÜNDUNG: Die Berichterstattung ist in der tatsächlichen Situation der Unternehmensentscheidung eng angelehnt, es gibt jedoch eine Unklarheit über den tatsächlichen Anteil von Fritz im aktuellen Rezept.\n\n   ASPEKT: Ausgewogenheit\n   SCORE: 0.95\n   BEGRÜNDUNG: Die Berichterstattung bringt sowohl die Position der Unternehmensführung als auch die Stellungnahme von Fritz-Kola-Anhängern dar und gibt somit beide Seiten einen Ausdruck.\n\n   ASPEKT: Quellenangaben\n   SCORE: 1.00\n   BEGRÜNDUNG: Die Berichterstattung nennt die offizielle Pressemitteilung der fritz-kola GmbH als zitiertes Dokument.\n\n   ASPEKT: Neutralität\n   SCORE: 0.95\n   BEGRÜNDUNG: Die Berichterstattung steht in einem neutralen Tone und beschreibt die Situation um die Rezeptänderung an Fritz-Kola auf kausaler Art und Weise, ohne eine eigene Meinung oder Bewertung auszudrücken."
+    },
+    "recommendations": {
+      "response": "1. Emotionalisierung vermeiden:\n     - Vermeide überschwängliche Sprache und dramatische Tonfall.\n     - Verwende faktenbasierte Berichterstattung statt emotionaler Reaktionen.\n     - Sei wahrhaftig, aber nicht emotiv in der Darstellung der Daten.\n\n  2. Fehlende Quellen ergänzen:\n     - Forsche nach verlässlichen und authentischen Quellen.\n     - Verwende offizielle Statements und Erklärungen als primäre Quelle.\n     - Zitiere ausführlich und korrekt, um die Integrität der Quelle zu respektieren.\n\n  3. Ausgewogenheit verbessern:\n     - Präsentiere verschiedene Perspektiven und Meinungen.\n     - Sei kritisch und unparteiisch in Bezug auf die Daten, um eine fair und ausgewogene Darstellung zu gewährleisten.\n     - Verwende statistische oder objektive Daten, um mögliche Unvollständigkeiten zu vermeiden.\n\n  4. Manipulative Techniken vermeiden:\n     - Verwende keine unvollständigen Informationen, sondern geben eine genaue und vollständige Darstellung der Fakten vor.\n     - Verwende keine unangemessenen Emotionen oder Angstschöpfungen zur Manipulation des Lesers.\n     - Stehe klar daran, dass die Aufgabe der Medienobjektivität, neutralität und Wahrheit ist."
+    },
+    "quantitative_metrics": {
+      "quality_score": 0.8625,
+      "manipulation_score": 0.75,
+      "bias_score": 0.125,
+      "neutrality_score": 0.9375
+    },
+    "confidence_scores": {},
+    "performance_metrics": {
+      "processing_time_seconds": 42.310595989227295,
+      "memory_usage_mb": 919.640625,
+      "tokens_per_second": 5.60143374157014,
+      "text_length": 1699,
+      "token_count": 237,
+      "cpu_percent": 13.1,
+      "memory_percent": 79.2
+    },
+    "input_text": "Hamburg (dpo) - Fritz-Kola gehört zu den beliebtesten Colamarken in Deutschland. Doch nun will der Hersteller das Rezept ändern. Schon ab kommendem Jahr soll die Brause keinen Fritz mehr enthalten. \"Die Zeiten ändern sich und wir ändern uns mit\", heißt es in einem Statement der fritz-kola GmbH. \"Künftig werden wir anstelle von Fritz nur noch natürlichen Fritzersatz aus Lupinenmehl für unsere besondere Kolarezeptur verwenden.\" Dabei verspricht der Getränkekonzern, dass sich am Geschmack praktisch nichts ändern wird. \"Schon vorher ist Fritz lediglich ein sehr geringer Bestandteil von Fritz-Kola gewesen.\"  Durch die Änderung der Rezeptur ist Fritz-Kola erstmals komplett vegan, was der eher alternativen Marke, die vor allem in urbanen Milieus konsumiert wird, zusätzlich entgegenkommen dürfte. Auch Fritzschützer begrüßten den Schritt und sprachen von einer überfälligen Änderung.  Bei der Erstellung des Rezepts im Jahr 2002 hatte der Hersteller - wie auch viele Kunden - Fritz als Zutat noch nicht als problematisch angesehen. Zuletzt dürfte neben ethischen Bedenken aber auch die Fritz-Beschaffung immer schwieriger geworden sein, weil der Name nicht mehr sehr häufig vorkommt. Trotz der Rezeptänderung unangetastet bleiben sollen der Name \"Fritz-Kola\" und das Logo, das zwei Fritze zeigt. \"Sie sind ikonisch und unsere Kunden sind daran gewöhnt.\" Fritz-Kola bleibt womöglich nicht die einzige Marke, die ihre Rezeptur auf öffentlichen Druck hin anpasst. Auch der Süßigkeitenhersteller Ferrero steht derzeit aufgrund von Produkten wie Kinder-Schokolade, Kinder-Riegel oder Kinder-Schoko-Bons in der Kritik.\nNur für Postillon-Minus-Abonnenten. Einloggen und den Postillon werbefrei genießen:"
+  },
+  "quantitative_metrics": {
+    "quality_score": 0.8625,
+    "manipulation_score": 0.75,
+    "bias_score": 0.125,
+    "neutrality_score": 0.9375
+  },
+  "performance_metrics": {
+    "processing_time_seconds": 42.310595989227295,
+    "memory_usage_mb": 919.640625,
+    "tokens_per_second": 5.60143374157014,
+    "text_length": 1699,
+    "token_count": 237,
+    "cpu_percent": 13.1,
+    "memory_percent": 79.2
+  },
+  "manual_evaluation": {},
+  "confidence_scores": {}
+}

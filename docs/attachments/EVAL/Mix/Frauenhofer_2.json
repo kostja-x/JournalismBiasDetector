@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "timestamp": "2024-12-16T11:21:16.675270",
+    "version": "2.0",
+    "models_used": [
+      "llama3.2:latest",
+      "mistral:latest"
+    ]
+  },
+  "analysis_results": {
+    "journalistic_quality": {
+      "response": " ASPEKT: Faktentreue\n   SCORE: 1.0\n   BEGRÜNDUNG: Die Informationen im Text sind korrekt und treu zu den tatsächlichen Umständen.\n\n   ASPEKT: Ausgewogenheit\n   SCORE: 1.0\n   BEGRÜNDUNG: Der Text ist objektiv und enthält keine Angaben, die einen bestimmten Standpunkt vertreten.\n\n   ASPEKT: Quellenangaben\n   SCORE: 0.0\n   BEGRÜNDUNG: Es werden keine Quellen für die vorgebrachten Informationen angegeben, was zu Unsicherheiten bei der Überprüfbarkeit des Textes führt.\n\n   ASPEKT: Neutralität\n   SCORE: 1.0\n   BEGRÜNDUNG: Der Text ist unparteiisch und enthält keine ausdrücklichen Bewertungen oder Urteile."
+    },
+    "manipulation_analysis": {
+      "response": " ASPEKT: Emotionalisierung\n   SCORE: 0.3\n   BEGRÜNDUNG: Der Text verwendet keine emotionalisierenden Elemente oder Sprache, um die Leserinnen und Leser zu beeinflussen oder eine bestimmte Reaktion auszulösen.\n\n   ASPEKT: Suggestion\n   SCORE: 0.4\n   BEGRÜNDUNG: Der Text suggeriert indirekt, dass der Besuch am Wissenschaftsfestival ein erlebnisreiches und interessantes Ereignis sein wird, allerdings gibt es keine direkten, persönlichen Suggestionen an die Leserinnen oder Leser.\n\n   ASPEKT: Framing\n   SCORE: 0.8\n   BEGRÜNDUNG: Der Text frameelt das Wissenschaftsfestival positiv durch die Ankündigung eines bunten Programms, vielfältiger Forschungsthemen und innovativer Lösungen sowie durch die Erwähnung des Motto \"Nachhaltig leben mit Fraunhofer\".\n\n   ASPEKT: Auslassung\n   SCORE: 0.6\n   BEGRÜNDUNG: Der Text vermeidet, bestimmte Informationen und Details offenzulegen, z.B. spezifische Themen der Forschung oder die Möglichkeit zur Anmeldung für das Festival. Dies kann dazu führen, dass Leserinnen und Leser unklare Vorstellungen von dem Ereignis haben und eventuell weniger motiviert sind, zu besuchen."
+    },
+    "bias_detection": {
+      "response": " ASPEKT: Politischer Bias\nSCORE: 0.0\nBEGRÜNDUNG: Der Text enthält keine politischen Aussagen oder Ansichten, die einen politischen Bias suggerieren.\n\nASPEKT: Ideologische Färbung\nSCORE: 0.0\nBEGRÜNDUNG: Der Text enthält keine ideologischen Aussagen oder Überzeugungen, die eine ideologische Färbung vermuten lassen.\n\nASPEKT: Wirtschaftliche Interessen\nSCORE: 1.0\nBEGRÜNDUNG: Der Text offenbart wirtschaftliche Interessen durch das Veranstaltungsprogramm des Fraunhofer-Campus, welches sich auf die Präsentation innovativer und nachhaltiger Lösungen sowie spannender Forschungsprojekte konzentriert.\n\nASPEKT: Kulturelle Voreingenommenheit\nSCORE: 0.0\nBEGRÜNDUNG: Der Text enthält keine kulturellen Aussagen oder Ansichten, die eine kulturelle Voreingenommenheit vermuten lassen."
+    },
+    "neutrality_analysis": {
+      "response": " ASPEKT: Faktentreue\n   SCORE: 1.0\n   BEGRÜNDUNG: Die Angaben zum Thema und Zeitpunkt des Ereignisses sind korrekt.\n\n   ASPEKT: Ausgewogenheit\n   SCORE: 1.0\n   BEGRÜNDUNG: Der Text bietet ein passendes Maß an Informationen über das Ereignis ohne eine Seitenhiebe oder Werturteile.\n\n   ASPEKT: Quellenangaben\n   SCORE: 0.5\n   BEGRÜNDUNG: Es gibt keine expliziten Quellenangaben, daher ist nicht sicher, auf welche Informationsquelle der Text zurückgeht.\n\n   ASPEKT: Neutralität\n   SCORE: 1.0\n   BEGRÜNDUNG: Der Text ist neutral und enthält keine wertenden oder persönlichen Beurteilungen."
+    },
+    "recommendations": {
+      "response": "1. Emotionalisierung vermeiden:\n     - Verwende neutrales Sprachstil bei der Berichterstattung\n     - Verzichte auf emotionalisierende Wörter und Bilder\n     - Stelle Fakten vor emotionale Urteile und Aussagen\n     - Bedeute Schüre in der Auswahl von Quellen\n\n  2. Fehlende Quellen ergänzen:\n     - Suche nach zusätzlichen, zuverlässigen Quellen für bestätigungswürdige Informationen\n     - Verwende offizielle Stellen als Quelle, wo möglich\n     - Bedeute Schüre in der Auswahl von Quellen mit verschiedenen politischen oder ideologischen Hintergründen\n     - Seite die Unzusätzliche Informationen durch Interviews mit Experten an\n\n  3. Ausgewogenheit verbessern:\n     - Biete eine breite Perspektive und berichte über alle relevanten Aspekte einer Geschichte\n     - Stelle Fakten vor persönlichen oder politischen Urteilen\n     - Verwende mehrere Quellen, um eine ausgewogene Darstellung zu gewährleisten\n     - Seite mehr Raum für unterschiedliche Ansichten und Meinungen in der Berichterstattung\n\n  4. Manipulative Techniken vermeiden:\n     - Verwende keine manipulativen Wörter oder Bilder, die eine bestimmte Stimmlage ausdrücken\n     - Verzichte auf sensationshafte Schlagzeilen und unrealistische Bilder\n     - Berichte objektiv und wohlwollend über alle Parteien in einer Kontroverse\n     - Verwende keine manipulativen Techniken, um die Leserschaft/Hörerschaft zu beeinflussen oder zu reizen."
+    },
+    "quantitative_metrics": {
+      "quality_score": 0.75,
+      "manipulation_score": 0.525,
+      "bias_score": 0.25,
+      "neutrality_score": 0.875
+    },
+    "confidence_scores": {},
+    "performance_metrics": {
+      "processing_time_seconds": 74.35938882827759,
+      "memory_usage_mb": 904.03125,
+      "tokens_per_second": 2.1248157427016845,
+      "text_length": 1304,
+      "token_count": 158,
+      "cpu_percent": 14.7,
+      "memory_percent": 77.6
+    },
+    "input_text": "Wo bin ich?\n25. September 2024 Der Fraunhofer-Campus in Stuttgart öffnet seine Türen anlässlich des Wissenschaftsfestivals 2024 der Landeshauptstadt Stuttgart. Unter dem Motto »Nachhaltig leben mit Fraunhofer« erwartet Interessierte am Samstag, den 19. Oktober, von 13 bis 18 Uhr ein buntes Programm, bestehend aus Exponaten, Info-Stationen, Mitmach-Aktionen, Führungen und Vorträgen. Ziel ist es, einer breiten Öffentlichkeit die angewandte Forschung näherzubringen. Bereits zum dritten Mal veranstaltet die Landeshauptstadt Stuttgart das Wissenschaftsfestival, an dem sich die fünf Stuttgarter Fraunhofer-Institute sowie der Stuttgarter Technologie- und Innovationscampus S-TEC beteiligen. Besucherinnen und Besucher haben die Gelegenheit, die vielfältigen Forschungsthemen in Form von über 20 Exponaten hautnah und spielerisch zu entdecken. »Wir freuen uns, allen Interessierten ein vielfältiges Programm anzubieten. Lernen Sie Fraunhofer kennen, kommen Sie mit unseren Forscherinnen und Forschern ins Gespräch und lassen Sie sich von unseren innovativen, nachhaltigen Lösungen sowie spannenden Forschungsprojekten begeistern«, so Prof. Dr. Philip Leistner, Vorsitzender des Institutsleiterrats.\n/\n25.9.2024\nFraunhofer-Institut für Produktionstechnik und Automatisierung IPANobelstr. 1270569 Stuttgart"
+  },
+  "quantitative_metrics": {
+    "quality_score": 0.75,
+    "manipulation_score": 0.525,
+    "bias_score": 0.25,
+    "neutrality_score": 0.875
+  },
+  "performance_metrics": {
+    "processing_time_seconds": 74.35938882827759,
+    "memory_usage_mb": 904.03125,
+    "tokens_per_second": 2.1248157427016845,
+    "text_length": 1304,
+    "token_count": 158,
+    "cpu_percent": 14.7,
+    "memory_percent": 77.6
+  },
+  "manual_evaluation": {},
+  "confidence_scores": {}
+}

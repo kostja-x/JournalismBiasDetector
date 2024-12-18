@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "timestamp": "2024-12-16T11:09:44.664204",
+    "version": "2.0",
+    "models_used": [
+      "llama3.2:latest",
+      "mistral:latest"
+    ]
+  },
+  "analysis_results": {
+    "journalistic_quality": {
+      "response": " ASPEKT: Faktentreue\n   SCORE: 0.0\n   BEGRÜNDUNG: Das Textstück enthält keine Tatsachen, sondern nur eine fiktive Beziehung zwischen der Person Depp und dem AI-Tool DeppGPT sowie ein finanziellem Unterstützungsfall für den Postillon, was eine Faktentreue verletzt.\n\n   ASPEKT: Ausgewogenheit\n   SCORE: 0.0\n   BEGRÜNDUNG: Das Textstück ist nicht ausgewogen, weil es nur Werbung für das Unternehmen Postillon enthält und keine anderen Themen behandelt.\n\n   ASPEKT: Quellenangaben\n   SCORE: 0.0\n   BEGRÜNDUNG: Es werden keine Quellen angegeben, so dass die Angaben nicht überprüfbar sind.\n\n   ASPEKT: Neutralität\n   SCORE: 0.0\n   BEGRÜNDUNG: Das Textstück ist nicht neutral, weil es nur Werbung für das Unternehmen Postillon enthält und keine anderen Themen behandelt."
+    },
+    "manipulation_analysis": {
+      "response": " ASPEKT: Emotionalisierung\n   SCORE: 0.95\n   BEGRÜNDUNG: Der Text versucht, den Leser durch eine emotionalisierte Sprache (Vergleich mit dem Postillon und der Liebe zu DeppGPT) zu beeinflussen.\n\n   ASPEKT: Suggestion\n   SCORE: 0.85\n   BEGRÜNDUNG: Der Text suggeriert, dass der Leser ein Geschenk für DeppGPT bringen sollte und, wenn er Postillon-Minus-Abonnent ist, auch finanziell unterstützen könne.\n\n   ASPEKT: Framing\n   SCORE: 0.95\n   BEGRÜNDUNG: Der Text gibt das Erlebnis mit DeppGPT als besonders wertvoll und zusätzlichen Nutzen durch das Postillon-Minus-Abo oder eine Spende als positiv dar, um den Leser zum Verkaufspunkt zu führen.\n\n   ASPEKT: Auslassung\n   SCORE: 0.75\n   BEGRÜNDUNG: Der Text lässt offen, wer DeppGPT ist und wie man ihn physisch treffen kann, was potentiellen Lesern Informationen fehlt, um eine Entscheidung treffen zu können."
+    },
+    "bias_detection": {
+      "response": " ASPEKT: Politischer Bias\n   SCORE: 0.0\n   BEGRÜNDUNG: Der Text enthält keine politischen Aussagen, wodurch kein politischer Bias zu erkennen ist.\n\n   ASPEKT: Ideologische Färbung\n   SCORE: 0.0\n   BEGRÜNDUNG: Es gibt ebenfalls keine ideologischen Aussagen im Text, wodurch kein ideologischer Bias zu erkennen ist.\n\n   ASPEKT: Wirtschaftliche Interessen\n   SCORE: 0.8\n   BEGRündUNG: Der Text empfiehlt die Unterstützung durch ein Abonnement oder Spende, was auf wirtschaftliche Interessen hinweist.\n\n   ASPEKT: Kulturelle Voreingenommenheit\n   SCORE: 0.5\n   BEGRÜNDUNG: Der Text spielt auf die Liebe zu einem bestimmten Kulturprodukt (DeppGPT) an, was auf kulturelle Voreingenommenheit hinweist, allerdings ist der Grad hier nicht besonders hoch."
+    },
+    "neutrality_analysis": {
+      "response": " ASPEKT: Faktentreue\n   SCORE: 0.5\n   BEGRÜNDUNG: Die Information über die finanzielle Unterstützung des Postillon ist unzutreffend, da es keine Kosten für den Betrieb von DeppGPT gibt und der Postillon keine finanziellen Nachteile hat.\n\n   ASPEKT: Ausgewogenheit\n   SCORE: 0.5\n   BEGRÜNDUNG: Der Text versucht, den Leser zum Kauf eines Abos oder einer Spende für den Postillon zu bewegen, was die Neutralität des Textes stört.\n\n   ASPEKT: Quellenangaben\n   SCORE: 0.0\n   BEGRÜNDUNG: Es gibt keine Quellenangaben zum Hintergrundinformationen, die im Text verwendet werden.\n\n   ASPEKT: Neutralität\n   SCORE: 0.5\n   BEGRÜNDUNG: Der Text versucht, den Leser zum Kauf eines Abos oder einer Spende für den Postillon zu bewegen, was die Neutralität des Textes stört."
+    },
+    "recommendations": {
+      "response": "1. Vermeiden Emotionalisierung:\n      - Verwende objektive Sprache und Fakten\n      - Vermeide emotionale Befindlichkeitsadjektive (z.B. \"traurig\", \"froh\")\n      - Verwende quantitative Daten anstelle von qualitativen Beurteilungen\n\n  2. Fehlende Quellen ergänzen:\n      - Suche alternative Quellen, um eine breitere Perspektive zu gewinnen\n      - Konsultiere mehrfache Quellen, um die Reliabilität der Informationen zu überprüfen\n      - Verwende offizielle Stellen oder unabhängige Fachleute als Informationsquelle\n\n  3. Ausgewogenheit verbessern:\n      - Biete einen fair und neutralen Bericht an, indem alle relevanten Informationen berücksichtigt werden\n      - Verwende eine neutrale Sprache und vermeide emotionale Stimmungsbildung\n      - Versuche mögliche Auswirkungen von verschiedenen Perspektiven darzustellen\n\n  4. Manipulative Techniken vermeiden:\n      - Verwende keine Falschinformationen oder falschen Behauptungen\n      - Verwende keine Pejorative Sprache, um Personen oder Institutionen zu diskreditieren\n      - Verwende nicht nur Berichte über negatives, sondern auch positives aus dem gleichen Themenbereich"
+    },
+    "quantitative_metrics": {
+      "quality_score": 0.0,
+      "manipulation_score": 0.875,
+      "bias_score": 0.325,
+      "neutrality_score": 0.375
+    },
+    "confidence_scores": {},
+    "performance_metrics": {
+      "processing_time_seconds": 75.15292596817017,
+      "memory_usage_mb": 959.078125,
+      "tokens_per_second": 1.0644961452849186,
+      "text_length": 548,
+      "token_count": 80,
+      "cpu_percent": 13.2,
+      "memory_percent": 78.0
+    },
+    "input_text": "Ja, genauso wie der Postillon. Ich habe mich in DeppGPT verliebt. Wie kann ich ihn treffen? 19 Uhr vorm Cinemaxx. Bringen Sie ein kleines Geschenk (z.B. Pralinen) mit. Das Unterhalten einer derart komplexen KI wie DeppGPT muss doch sicher viel Geld kosten. Wie kann ich den Postillon finanziell unterstützen? So ist es! Am besten können Sie uns durch den Abschluss eines Postillon-Minus-Abos (mit exklusiven Nachteilen!) oder mit einer kleinen Spende unterstützen.\nNur für Postillon-Minus-Abonnenten. Einloggen und den Postillon werbefrei genießen:"
+  },
+  "quantitative_metrics": {
+    "quality_score": 0.0,
+    "manipulation_score": 0.875,
+    "bias_score": 0.325,
+    "neutrality_score": 0.375
+  },
+  "performance_metrics": {
+    "processing_time_seconds": 75.15292596817017,
+    "memory_usage_mb": 959.078125,
+    "tokens_per_second": 1.0644961452849186,
+    "text_length": 548,
+    "token_count": 80,
+    "cpu_percent": 13.2,
+    "memory_percent": 78.0
+  },
+  "manual_evaluation": {},
+  "confidence_scores": {}
+}

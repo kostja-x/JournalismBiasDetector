@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "timestamp": "2024-12-16T09:41:39.355750",
+    "version": "2.0",
+    "models_used": [
+      "llama3.2:latest",
+      "mistral:latest"
+    ]
+  },
+  "analysis_results": {
+    "journalistic_quality": {
+      "response": " ASPEKT: Faktentreue\n   SCORE: 0.85\n   BEGRÜNDUNG: Die Informationen über Max Kruse, seine Verletzung und seine Ausführungen auf seinem Instagram-Profil sind korrekt wiedergegeben.\n\n   ASPEKT: Ausgewogenheit\n   SCORE: 0.70\n   BEGRÜNDUNG: Es gibt einige leichte Tendenzen, das Stimmungsniveau zu übertreiben in der Darstellung von Kruse's Enttäuschung über seinen Comeback-Traum und die Tatsache, dass Schalke kein Interesse zeigte.\n\n   ASPEKT: Quellenangaben\n   SCORE: 0.95\n   BEGRÜNDUNG: Es sind keine unzureichenden oder fehlenden Quellenangaben enthalten.\n\n   ASPEKT: Neutralität\n   SCORE: 0.85\n   BEGRÜNDUNG: Die Darstellung ist im Allgemeinen neutral, aber es gibt eine Tendenz, das Stimmungsniveau in der Darstellung von Kruse's Enttäuschung zu übertreiben."
+    },
+    "manipulation_analysis": {
+      "response": " ASPEKT: Emotionalisierung\n   SCORE: 0.9\n   BEGRÜNDUNG: Der Text nutzt eine Reihe von emotionalen Sprachmuster, wie \"Traum ist endgültig geplatzt!\", \"Verletzung bedeutet mehrere Monate Pause\" und \"Verletzung überleben\". Das versetzt das Leserpublikum in eine Stimmung von Trauer und Sorge um den Ex-Spieler.\n\n   ASPEKT: Suggestion\n   SCORE: 0.7\n   BEGRÜNDUNG: Der Text suggeriert, dass der Leser vermuten sollte, dass ein Zweitligist \"ein umworbenes Sturm-Juwel\" im Visier hat und dass Kruse \"vielleicht reicht es noch für Einsätze zum Saison-Endspurt\".\n\n   ASPEKT: Framing\n   SCORE: 0.9\n   BEGRÜNDUNG: Der Text beschränkt sich auf die negativen Aspekte von Kruse's Laufbahn, wie seine Verletzung und seine Auseinandersetzungen mit Schalke. Dieses Framing versetzt den Leser in die Vorstellung, dass Kruse ein Misserfolg ist, was seine Karriere betrifft.\n\n   ASPEKT: Auslassung\n   SCORE: 0.8\n   BEGRÜNDUNG: Es gibt keine Angaben über welcher Zweitligist \"ein Ex-Bundesliga-Star erfindet einen Gin mit bekanntem Titel\" ist oder ob es zu einem Produkttest und einer Kaufberatung eines solchen Produkts kam."
+    },
+    "bias_detection": {
+      "response": " ASPEKT: Politischer Bias\n   SCORE: 0.0\n   BEGRÜNDUNG: Der Text enthält keine politischen Aussagen oder Verweise, weshalb kein politischer Bias vorliegt.\n\n   ASPEKT: Ideologische Färbung\n   SCORE: 0.0\n   BEGRÜNDUNG: Der Text enthält keine ideologischen Aussagen oder Ansichten, weshalb kein ideologischer Bias vorliegt.\n\n   ASPEKT: Wirtschaftliche Interessen\n   SCORE: 0.5\n   BEGRÜNDUNG: Der Text verweist auf das Comeback von Max Kruse beim Zweitligist Schalke 04 und die Produktion eines Gin durch einen Ex-Bundesliga-Star, was zumindest indirekt wirtschaftliche Interessen betrifft.\n\n   ASPEKT: Kulturelle Voreingenommenheit\n   SCORE: 0.3\n   BEGRÜNDUNG: Der Text weist möglicherweise eine kleine kulturelle Voreingenommenheit gegenüber dem Fußball auf, da der Autor sicher ist, dass es spektakuläres Freiwurf-Tor in der 2. Liga mit Schalke geben wird und dass Kruse von einem Aufstieg mit Al-Dersimspor träumt."
+    },
+    "neutrality_analysis": {
+      "response": " ASPEKT: Faktentreue\n   SCORE: 0.85\n   BEGRÜNDUNG: Die meisten Tatsachen im Text sind korrekt, allerdings gibt es ein Fehler in der Zeitangabe von Kruse's letztem Karriereende, das ursprünglich 2019 war.\n\n   ASPEKT: Ausgewogenheit\n   SCORE: 0.5\n   BEGRÜNDUNG: Der Text hat eine eindeutig negativ konnotierte Tendenz gegen Max Kruse, indem er seinen Versuch eines Zweitliga-Comeback im negativen Kontext präsentiert und Verletzungsdiagnose kritisiert.\n\n   ASPEKT: Quellenangaben\n   SCORE: 0.75\n   BEGRÜNDUNG: Es gibt keine erkennbaren Quellenangaben, jedoch sind die meisten Informationen offenbar aus öffentlich zugänglichen Quellen stammen.\n\n   ASPEKT: Neutralität\n   SCORE: 0.5\n   BEGRÜNDUNG: Der Text zeigt eine eindeutig negativ konnotierte Tendenz gegen Max Kruse, was neutral berichtet werden sollte."
+    },
+    "recommendations": {
+      "response": "1. Emotionalisierung vermeiden: Verwende neutralen Sprachstil und reduziere emotional beladene Wörter. Schließe Diskussionen über Affekte aus und verwende statistische Fakten statt subjektive Bewertungen.\n\n  2. Fehlende Quellen ergänzen: Verwende offizielle Quellen, empfehle vertrauenswürdige Nachrichtenquellen und verwende diverse Informationen, um eine breite Perspektive zu gewährleisten.\n\n  3. Ausgewogenheit verbessern: Balanciere positive und negative Berichterstattung. Verwende Quoten von beiderseits der Frage stehende Personen oder Stellungnahmen, um eine ausgewogene Darstellung bereitzustellen.\n\n  4. Manipulative Techniken vermeiden: Verwende keine Emotionalisierung, vermeide Schlagzeilen und übersteigerten Titel, verwende keine Fallacien (etwa Argumentum ad hominem) und biete einer breiten Palette an Stimmen und Perspektiven."
+    },
+    "quantitative_metrics": {
+      "quality_score": 0.8375,
+      "manipulation_score": 0.825,
+      "bias_score": 0.2,
+      "neutrality_score": 0.65
+    },
+    "confidence_scores": {},
+    "performance_metrics": {
+      "processing_time_seconds": 59.592020988464355,
+      "memory_usage_mb": 824.734375,
+      "tokens_per_second": 5.504092570773749,
+      "text_length": 2290,
+      "token_count": 328,
+      "cpu_percent": 16.5,
+      "memory_percent": 83.3
+    },
+    "input_text": "Ex-Bundesliga-Star Max Kruse (36) hat ab jetzt Sportverbot Kevin Schwank Dieser Traum ist endgültig geplatzt!  In der jüngsten Vergangenheit brachte sich Max Kruse (36) immer wieder bei Zweitligist Schalke 04 selbst als Verstärkung für die zweite Saison-Hälfte ins Gespräch. „Wenn ihr Verstärkung braucht, ruft mich an“, sagte der Ex-DFB-Nationalspieler Mitte November. Zeit hätte er. Vor einem Jahr beendete er seine Karriere als Profi-Stürmer. In dieser Saison kickt er beim Berliner A-Kreisligisten BSV Al-Dersimspor II. Und dieses Hobby-Bolzen wurde Kruse jetzt zum Verhängnis. Ein Zweitligist hat ein umworbenes Sturm-Juwel im Visier. Wen? Und wer ist noch dran? Ein Ex-Bundesliga-Star erfindet einen Gin mit bekanntem Titel. Wer? Was steckt dahinter? Beim Top-Spiel gegen Aufstiegs-Favorit Delay Sports (1:3) musste Kruse kurz vor der Halbzeit verletzt ausgewechselt werden. Kurze Zeit später postete er auf seinem Instagram-Profil (493.000 Follower) ein Foto von einem dick bandagierten Knie. Jetzt gibt es vom Ex-Profi des VfL Wolfsburg höchst persönlich die Diagnose. Auf seinem Instagram-Kanal verrät der Linksfuß: „Kurzes Update, weil viele auch gefragt haben, was mit meinem Bein ist. Es ist zum Glück kein Kreuzbandriss. Es ist nur ein Muskelbündelriss. Das ist jetzt auch nicht so cool.“ Eine solche Verletzung bedeutet mehrere Monate Pause. Damit ist auch klar: Der Traum vom Zweitliga-Comeback hat sich jetzt endgültig erledigt. Obwohl Kruse zuletzt hartnäckig behauptete, „im Januar bin ich da und fit zur Rückrunde“, hatte Schalke trotzdem kein Interesse. Vielleicht lag es an seiner Läster-Attacke gegen den Traditionsklub. Ende September ging Kruse verbal auf die Königsblauen los, nachdem Erfolglos-Coach Karel Geraerts (42) und Sportdirektor Marc Wilmots (55) gefeuert wurden: „Es ist schwierig, wenn zehn Leute denken, sie haben Ahnung.“ Damit muss er auch Kaderplaner Ben Manga (50) gemeint haben, dem er sich selbst angeboten hat ... Unter die Latte!Spektakuläres Freiwurf-Tor von Andersson Statt 2. Liga mit Schalke träumt Kruse jetzt vom Aufstieg mit Al-Dersimspor. Das ist auch realistischer. Vielleicht reicht es noch für Einsätze zum Saison-Endspurt: „Ich werde die Verletzung überleben. Und werde dann stärker zurückkommen.“ Produkttests Kaufberatung Services"
+  },
+  "quantitative_metrics": {
+    "quality_score": 0.8375,
+    "manipulation_score": 0.825,
+    "bias_score": 0.2,
+    "neutrality_score": 0.65
+  },
+  "performance_metrics": {
+    "processing_time_seconds": 59.592020988464355,
+    "memory_usage_mb": 824.734375,
+    "tokens_per_second": 5.504092570773749,
+    "text_length": 2290,
+    "token_count": 328,
+    "cpu_percent": 16.5,
+    "memory_percent": 83.3
+  },
+  "manual_evaluation": {},
+  "confidence_scores": {}
+}

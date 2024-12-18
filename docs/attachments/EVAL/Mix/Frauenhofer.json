@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "timestamp": "2024-12-16T11:17:08.728186",
+    "version": "2.0",
+    "models_used": [
+      "llama3.2:latest",
+      "mistral:latest"
+    ]
+  },
+  "analysis_results": {
+    "journalistic_quality": {
+      "response": " ASPEKT: Faktentreue\n   SCORE: 1.0\n   BEGRÜNDUNG: Der Text enthält keine faktuelle Fehler oder Ungenauigkeiten.\n\n   ASPEKT: Ausgewogenheit\n   SCORE: 1.0\n   BEGRündUNG: Das Textstück zeigt keine signifikanten Sympathie- oder Antipathieausdrücke, sondern stellt lediglich eine reine Information dar.\n\n   ASPEKT: Quellenangaben\n   SCORE: 0.0\n   BEGRÜNDUNG: Es gibt keine Angabe von Quellen in dem Textstück, was die Faktentreue und Ausgewogenheit schwächt oder beeinträchtigt.\n\n   ASPEKT: Neutralität\n   SCORE: 1.0\n   BEGRÜNDUNG: Der Text zeigt keine signifikanten Sympathie- oder Antipathieausdrücke, sondern stellt lediglich eine reine Information dar und ist daher neutral."
+    },
+    "manipulation_analysis": {
+      "response": ""
+    },
+    "bias_detection": {
+      "response": " ASPEKT: Politischer Bias\nSCORE: 0.0\nBEGRÜNDUNG: Der Text enthält keine bewertenden Aussagen, politischen Stellungnahmen oder Bezüge zu aktuellen politischen Ereignissen, die eine politische Standortnahme suggerieren.\n\n   ASPEKT: Ideologische Färbung\nSCORE: 0.0\nBEGRÜNDUNG: Der Text ist ideologiefrei und enthält keine bewertenden Aussagen, die auf ein bestimmtes ideologisches Konzept oder Weltbild hinweisen.\n\n   ASPEKT: Wirtschaftliche Interessen\nSCORE: 0.5\nBEGRÜNDUNG: Der Text erwähnt den Ort (Fraunhofer-Institut für Produktionstechnik und Automatisierung) und die Beziehung zu zwei Stadtstandorten (Stuttgart, Bayreuth), was eine Verbindung zu wirtschaftlichen Interessen nahelegt. Allerdings fehlen konkretere Informationen über ein mögliches Interesse an Wirtschaftsgütern oder finanziellen Transaktionen.\n\n   ASPEKT: Kulturelle Voreingenommenheit\nSCORE: 0.0\nBEGRÜNDUNG: Der Text ist kulturneutral, es gibt keine bewertenden Aussagen oder Bezüge zu bestimmten Kulturen, Religionen oder Ethnien, die eine kulturelle Voreingenommenheit suggerieren."
+    },
+    "neutrality_analysis": {
+      "response": " ASPEKT: Faktentreue\n   SCORE: 1.0\n   BEGRÜNDUNG: Alle Angaben im Text (Ort, Datum, Kontaktinformationen) entsprechen der Wirklichkeit und sind korrekt.\n\n   ASPEKT: Ausgewogenheit\n   SCORE: 0.5\n   BEGRÜNDUNG: Der Text ist nicht ausgewogen, da er lediglich eine Adresse und Kontaktinformationen enthält und keine weiteren Informationen oder Meinungen vermittelt werden.\n\n   ASPEKT: Quellenangaben\n   SCORE: 0.0\n   BEGRÜNDUNG: Es gibt keinerlei Quellenangaben im Text.\n\n   ASPEKT: Neutralität\n   SCORE: 1.0\n   BEGRÜNDUNG: Der Text ist neutral, da er keine Meinungen oder Bewertungen enthält, sondern lediglich eine Adresse und Kontaktinformationen vermittelt."
+    },
+    "recommendations": {
+      "response": "1. Emotionalisierung vermeiden:\n    - Verwende unparteiische Sprache und beprüfe dein eigenes Bias.\n    - Fokussiere auf den Faktenbericht und enthalte nur solche Emotionen, die dem Inhalt angemessen sind.\n    - Verzichte auf Übertreibung und Sensationalismus.\n\n  2. Fehlende Quellen ergänzen:\n    - Suche zuverlässige Quellen (z.B. offizielle Stellen, Fachleute etc.) und verifiziere die Informationen.\n    - Verwende eine Vielzahl verschiedener Quellen und biete eine Übersicht über die verschiedenen Meinungen und Positionen.\n    - Beziehe Ursprungsquellen direkt anstatt sie nur von anderen Medien zu zitieren.\n\n  3. Ausgewogenheit verbessern:\n    - Stelle sicher, dass die Informationen aus mehreren Blickwinkeln berichtet werden (z.B. aus Politik, Wirtschaft, Sozialwissenschaft etc.).\n    - Verwende visuelle Elemente wie Diagramme und Grafiken, um die Ausgewogenheit nochmals zu unterstützen.\n    - Biete eine Übersicht über den gesamten Kontext, statt nur Teile oder Bestandteile darzustellen.\n\n  4. Manipulative Techniken vermeiden:\n    - Verwende keine Verharmlosungen oder Überschätzung von Ereignissen.\n    - Verzichte auf die Darstellung in Schwarz-Weiß und biete eine ausgewogene Sichtweise an.\n    - Verzichte auf die Nutzung von Fearmongering, Propaganda oder anderen manipulativen Techniken."
+    },
+    "quantitative_metrics": {
+      "quality_score": 0.75,
+      "manipulation_score": 0.0,
+      "bias_score": 0.125,
+      "neutrality_score": 0.625
+    },
+    "confidence_scores": {},
+    "performance_metrics": {
+      "processing_time_seconds": 49.355541944503784,
+      "memory_usage_mb": 992.109375,
+      "tokens_per_second": 0.5470510288461479,
+      "text_length": 269,
+      "token_count": 27,
+      "cpu_percent": 12.3,
+      "memory_percent": 78.5
+    },
+    "input_text": "Wo bin ich?\n/\n10.12.2024\nFraunhofer-Institut für Produktionstechnik und Automatisierung IPANobelstr. 1270569 Stuttgart\nTelefon +49 711 970-1667 Fachlicher Ansprechpartner\nFraunhofer-Institut für Produktionstechnik und Automatisierung IPAUniversitätsstr. 995447 Bayreuth"
+  },
+  "quantitative_metrics": {
+    "quality_score": 0.75,
+    "manipulation_score": 0.0,
+    "bias_score": 0.125,
+    "neutrality_score": 0.625
+  },
+  "performance_metrics": {
+    "processing_time_seconds": 49.355541944503784,
+    "memory_usage_mb": 992.109375,
+    "tokens_per_second": 0.5470510288461479,
+    "text_length": 269,
+    "token_count": 27,
+    "cpu_percent": 12.3,
+    "memory_percent": 78.5
+  },
+  "manual_evaluation": {},
+  "confidence_scores": {}
+}

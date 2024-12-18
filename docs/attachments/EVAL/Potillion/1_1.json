@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "timestamp": "2024-12-16T01:57:54.924209",
+    "version": "2.0",
+    "models_used": [
+      "llama3.2:latest",
+      "mistral:latest"
+    ]
+  },
+  "analysis_results": {
+    "journalistic_quality": {
+      "response": ""
+    },
+    "manipulation_analysis": {
+      "response": ""
+    },
+    "bias_detection": {
+      "response": ""
+    },
+    "neutrality_analysis": {
+      "response": ""
+    },
+    "recommendations": {
+      "response": "1. Emotionalisierung vermeiden:\n     - Vermeide subjektive Sprache und übertreibende Adjektive.\n     - Stelle faktuelle Angaben vor, statt auf Emotionen zu setzen.\n     - Beweise stütze mit belegbaren Quellen.\n     - Verwende neutrales Tonfall und Sprachstil.\n\n  2. Fehlende Quellen ergänzen:\n     - Fülle deine Berichte mit belegbaren Quellen aus.\n     - Nutze offizielle Stellen oder fachexterne Experten als Quellen.\n     - Verwende verschiedene Quellen, um ein umfassendes Bild zu zeichnen.\n\n  3. Ausgewogenheit verbessern:\n     - Stelle verschiedene Meinungen dar und biete Raum für Diskussion.\n     - Verwende fairness und Gleichgewicht bei der Präsentation von Informationen.\n     - Biete eine ausgewogene Perspektive ohne Über- oder Unterbetonung von bestimmten Aspekten.\n\n  4. Manipulative Techniken vermeiden:\n     - Verwende keine falsche oder manipulierte Informationen.\n     - Biete nicht nur eine bestimmte Seite einer Geschichte dar, sondern gib Raum für verschiedene Meinungen.\n     - Verwende keine emotionalisierten oder sensationsbetonte Titel oder Fotos, die die Leser dazu verleiten könnten, ein ungefährtes Urteil zu fällen."
+    },
+    "quantitative_metrics": {
+      "quality_score": 0.0,
+      "manipulation_score": 0.0,
+      "bias_score": 0.0,
+      "neutrality_score": 0.0
+    },
+    "confidence_scores": {},
+    "performance_metrics": {
+      "processing_time_seconds": 227.76038885116577,
+      "memory_usage_mb": 204.1875,
+      "tokens_per_second": 3.5739313763286704,
+      "text_length": 6252,
+      "token_count": 814,
+      "cpu_percent": 16.3,
+      "memory_percent": 79.4
+    },
+    "input_text": "Argumentations-Mining ist ein interdisziplinäres Forschungsgebiet, das Philosophie, Psychologielinguistik und Informatik zur Erstellung von Argumentationsmodellen und automatisierten Methoden zur Identifizierung von Argumenten in schriftlichen Texten umfasst. Diese Tools bieten nicht nur neue Möglichkeiten Bildungsanwendungen wie intelligente Schreibunterstützung, Informationsabrufplattformen oder automatisierte Bewertungswerkzeuge, sondern eröffnen auch neue Möglichkeiten zur Verbesserung aktueller Rechtsinformationsabrufplattformen oder Richtlinienmodellierungsplattformen (Christian Stab and Iryna Gurevych 2015, 2).\nIn dieser Arbeit wurde ein Korpus von tausend annotierten Studenten Rezensionen erstellt und anschließend die Argumentation in Bezug darauf wie hilfreich die Argumentation, wie qualitativ hochwertig und wie gut die Argumentationsstruktur war bewertet. Wie hilfreich ein Argument war, wurde danach bewertet wie verständlich Argumente ausgedrückt waren und wie sinnvoll sie dem Leser erscheinen. Die Qualität wurde danach bewertet wie stark ein Argument ist, d.h. wenn Argumente durch eine oder mehrere sinnvolle Prämissen unterstützt. Je mehr sinnvolle Prämissen, desto stärker ist ein Argument. Die Struktur wurde danach bewertet wie einfach und logisch sich Beziehungen zwischen den einzelnen Argumentationskomponenten herstellen lassen. Die Studenten haben jeweils eine schriftliche Arbeit eines anderen Studenten argumentativ bewertet. Dabei sind diese auf die Stärken und Schwächen einer Arbeit eingegangen, um anschließend noch Verbesserungsvorschläge für eine Überarbeitung anzubringen.\nDie Fähigkeit überzeugende Argumente zu formulieren ist ein entscheidender Aspekt beim Erwerb von Schreibfähigkeiten. Einerseits sind gut definierte Argumente die Grundlage, um den Leser zu überzeugen, auf der anderen Seite sind gute Argumentationsfähigkeiten für die Analyse verschiedener Positionen bei der allgemeinen Entscheidungsfindung unerlässlich (Christian Stab and Iryna Gurevych 2014, 1501). Im Fall der Studenten Rezensionen gibt eine fundierte Argumentation einen guten Eindruck darüber wie gut die zugrundeliegende Studentenarbeit bearbeitet wurde. Sie zeigt dem Studenten, welcher die Arbeit verfasst hat, mit ausdrucksstarken Argumenten die Stärken und Schwächen auf und gibt ihm argumentativ unterstützende Verbesserungsvorschläge. Für die Annotation der Studenten Rezensionen wurden Regeln aufgestellt, welche auf Grundlage der erstellten Regeln von Christian Stab und Iryna Gurevych 2015 aufbauen. Die Regeln wurden angepasst, da es sich hier um deutschsprachige Rezensionen handelt und nicht um englischsprachige Überzeugungsaufsätze.\n2\n2. Argumentationskomponenten\nEin Argument besteht aus mehreren Aussagen. In seiner einfachsten Form enthält es eine Stellungnahme (claim), die von einer einzigen Prämisse (premise) unterstützt wird (Peldszus and Stede 2013; Britt and Larson, 2003; Toulmin 1958). Die Stellungnahme stellt eine kontroverse Aussage dar, von der der Autor versucht, den Leser zu überzeugen. Es ist in der Regel ein Satz oder eine Annahme und sollte vom Leser nicht ohne zusätzliche Unterstützung akzeptiert werden (Christian Stab and Iryna Gurevych 2015, 2). Prämissen können dabei nicht nur eine Stellungnahme unterstützen, sondern auch attackieren, was als Stilmittel verwendet wird oder auch Unsicherheit in der Argumentation verdeutlichen kann. Es können durchaus auch kompliziertere Konstellationen von Stellungnahmen und Prämissen bestehen, bei welchen eine Stellungnahme von mehreren verschiedenen Prämissen unterstützt wird oder von einer Kette aus Prämissen, bei welcher jede Prämisse wiederum durch eine andere Prämisse unterstützt wird. Genauso kann eine Stellungnahme durch eine Prämisse unterstützt werden und durch eine andere attackiert werden oder durch eine Prämisse unterstützt werden, welche wiederum durch eine andere Prämisse attackiert wird. Die einfachste Form kann folgendermaßen aussehen:\n<Stellungnahme> weil <Prämisse>\n3. Grenzen von Argumentationskomponenten\nIn deutschen Rezessionen lässt sich diese Regel ebenfalls nicht immer ein zu eins übernehmen, da nach solchen Shell-Wörtern die Argumentationskomponente nicht immer grammatikalisch korrekt ist, sofern man nicht ein weiteres Wort wie „es“ hinzufügt.\nÜbersetzt man die englischen Shell-Wörter ins Deutsche ergeben sich folgende Beispiele für Shell Wörter: „Zum Bespiel“, „Gemäß der vorigen Tatsache“, „Wie man sieht“, „Ein anderer wichtiger Punkt, welcher mein Argument unterstützt, ist, dass“, „In dem Zusammenhang“ „weil“, „da“, „allerdings“, „trotzdem“, „Meiner Meinung nach“, „Ich denke“, „auch“, „Des Weiteren“ usw. Die Übersetzung der Shell-Wörter, die Für den Kontext einer Argumentationskomponente relevant sind lauten: „Ich stimme damit nicht überein, dass“, „Ich widerspreche der Sicht, dass“, „ich denke nicht, dass“, „Ich glaube nicht, dass“.\nMehrheit für Scholz sehr unwahrscheinlich\nEs gilt als ausgeschlossen, dass Scholz bei der Abstimmung gegen seinen Willen die notwendigen 367 Stimmen erhält, um das Vertrauen des Bundestages zu behalten. Seit der Entlassung von FDP-Finanzminister Christian Lindner und dem damit verbundenen Ende der Ampelkoalition führt Scholz eine Regierung aus SPD und Grünen, die im Parlament keine Mehrheit mehr hat.\nMoskau (dpo) - Besser spät als nie: Russland hat gestern offiziell den ersten syrischen Flüchtling seit Beginn des Bürgerkriegs aufgenommen. Durch die Aufnahme eines besonders bedürftigen Augenarztes will das Land seinen humanitären Verpflichtungen nachkommen.\n\"Wir gewähren dem Syrer Baschar Al-Assad und seiner Familie Asyl aus humanitären Gründen\", heißt es in einer Mitteilung des Kreml. \"In seiner Heimat droht ihm Inhaftierung oder gar der Tod, nur weil er sich politisch betätigt hat. Als verfolgter Dissident ist er bei uns willkommen.\"\nFür Russland ist die Aufnahme Assads eine Kehrtwende: Obwohl der Kreml die dortige Regierung seit September 2015 militärisch unterstützt und unzählige Ziele in Syrien bombardiert hatte, nahm das Land bislang praktisch keine Flüchtlinge auf.\nOb die Aufnahme des Augenarztes aus Damaskus eine Ausnahme bleibt oder ob Russland in den kommenden Jahren noch mehr syrische Flüchtlinge aufnimmt, bleibt abzuwarten."
+  },
+  "quantitative_metrics": {
+    "quality_score": 0.0,
+    "manipulation_score": 0.0,
+    "bias_score": 0.0,
+    "neutrality_score": 0.0
+  },
+  "performance_metrics": {
+    "processing_time_seconds": 227.76038885116577,
+    "memory_usage_mb": 204.1875,
+    "tokens_per_second": 3.5739313763286704,
+    "text_length": 6252,
+    "token_count": 814,
+    "cpu_percent": 16.3,
+    "memory_percent": 79.4
+  },
+  "manual_evaluation": {},
+  "confidence_scores": {}
+}

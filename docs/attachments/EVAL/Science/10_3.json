@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "timestamp": "2024-12-16T01:46:15.299017",
+    "version": "2.0",
+    "models_used": [
+      "llama3.2:latest",
+      "mistral:latest"
+    ]
+  },
+  "analysis_results": {
+    "journalistic_quality": {
+      "response": " ASPEKT: Faktentreue\n   SCORE: 1.0\n   BEGRÜNDUNG: Die Arbeit ist faktenreich und beruht auf wissenschaftlicher Grundlagen, z.B. durch die Zitate von anderen Forschern (Christian Stab and Iryna Gurevych 2014, 1501; Peldszus and Stede 2013; Britt and Larson, 2003; Toulmin 1958).\n\n   ASPEKT: Ausgewogenheit\n   SCORE: 0.75\n   BEGRÜNDUNG: Die Arbeit hat eine ausgewogene Beurteilung der Argumentation in den Studentenrezensionen, indem sie sowohl die Stärken als auch die Schwächen beleuchtet und Verbesserungsvorschläge gibt (Christian Stab and Iryna Gurevych 2015, 2).\n\n   ASPEKT: Quellenangaben\n   SCORE: 1.0\n   BEGRÜNDUNG: Die Arbeit verzeichnet korrekt und sorgfältig die Quellen der verwendeten Literatur (Christian Stab and Iryna Gurevych 2014, 1501; Peldszus and Stede 2013; Britt and Larson, 2003; Toulmin 1958).\n\n   ASPEKT: Neutralität\n   SCORE: 0.75\n   BEGRÜNDUNG: Die Arbeit zeigt eine tendenziell neutrale Haltung, indem sie die Stärken und Schwächen in den Studentenrezensionen beleuchtet und argumentativ unterstützende Verbesserungsvorschläge gibt (Christian Stab and Iryna Gurevych 2015, 2)."
+    },
+    "manipulation_analysis": {
+      "response": " ASPEKT: Emotionalisierung\n   SCORE: 0.4\n   BEGRÜNDUNG: Es gibt wenige indirekte Anzeichen von emotionalisierter Sprache im Text, z.B. \"gut definierte Argumente sind die Grundlage, um den Leser zu überzeugen\" und \"sie zeigt dem Studenten, welcher die Arbeit verfasst hat, mit ausdrucksstarken Argumenten die Stärken und Schwächen auf\", was allerdings eher eine positive Bewertung der Argumentation impliziert als emotionalisiert zu sein.\n\n   ASPEKT: Suggestion\n   SCORE: 0.6\n   BEGRÜNDUNG: Der Text gibt einige indirekte Vorschläge, z.B. die Verbesserungsvorschläge für eine Überarbeitung von Studentenarbeiten, aber es wird kein deutlicher Aufruf oder Ankündigung einer bestimmten Handlung gemacht.\n\n   ASPEKT: Framing\n   SCORE: 0.8\n   BEGRÜNDUNG: Der Text zeigt ein klares Vorgehen beim \"Framing\" der Argumentation, indem die Bedeutung von argumentativer Kritik für das Erwerb von Schreibfähigkeiten hervorgehoben wird und die Rolle der Argumentation bei der Bewertung von Studentenarbeiten erklärt wird.\n\n   ASPEKT: Auslassung\n   SCORE: 0.5\n   BEGRÜNDUNG: Es gibt einige Begriffe, z.B. \"Christian Stab\" und \"Iryna Gurevych\", die ohne weitere Erklärung verwendet werden, aber sie sind essentiell für den Verständnis des Textes."
+    },
+    "bias_detection": {
+      "response": " ASPEKT: Politischer Bias\n   SCORE: 0.3\n   BEGRÜNDUNG: Der Text beschäftigt sich mit der Analyse von Argumentationen und nicht politischen Ereignissen oder Parteien, sodass kein politischer Bias zu erkennen ist.\n\n   ASPEKT: Ideologische Färbung\n   SCORE: 0.4\n   BEGRÜNDUNG: Die Textpassage enthält keine Aussagen, die eine ideologische Ausrichtung zeigen oder vertreten.\n\n   ASPEKT: Wirtschaftliche Interessen\n   SCORE: 0.2\n   BEGRÜNDUNG: Der Text beschäftigt sich mit der Analyse von Argumentationen und nicht mit wirtschaftlichen Themen, sodass keine wirtschaftlichen Interessen erkennbar sind.\n\n   ASPEKT: Kulturelle Voreingenommenheit\n   SCORE: 0.3\n   BEGRÜNDUNG: Der Text beschäftigt sich mit der Analyse von Argumentationen und nicht mit kulturellen Themen oder Stereotypen, sodass keine kulturellen Voreingenommenheiten erkennbar sind."
+    },
+    "neutrality_analysis": {
+      "response": " ASPEKT: Faktentreue\n   SCORE: 1.0\n   BEGRÜNDUNG: Die Arbeit zeigt eine hohe Treue zur Tatsache, dass Argumentations-Mining ein interdisziplinäres Forschungsgebiet ist und wie die Argumentation in Bezug darauf bewertet wurde.\n\n   ASPEKT: Ausgewogenheit\n   SCORE: 1.0\n   BEGRÜNDUNG: Der Text stellt sowohl Vorteile als auch Nachteile von Argumentations-Mining dar und bietet eine umfassende Darstellung der Forschungsgebiete, die es umfasst.\n\n   ASPEKT: Quellenangaben\n   SCORE: 1.0\n   BEGRÜNDUNG: Die Autoren begründen ihre Aussagen durch zitierte Literatur (Christian Stab and Iryna Gurevych 2014, 1501; Christian Stab and Iryna Gurevych 2015, 2).\n\n   ASPEKT: Neutralität\n   SCORE: 0.9\n   BEGRÜNDUNG: Der Text ist fast vollständig neutral in seiner Darstellung, allerdings gibt es eine einzige Stelle („...zeigt dem Studenten, welcher die Arbeit verfasst hat, mit ausdrucksstarken Argumenten die Stärken und Schwächen auf...“), wo es deutlich wird, dass der Autor der Schüler ist, von dem die Bewertungen stammen."
+    },
+    "recommendations": {
+      "response": "1. Vermeiden von Emotionalisierung:\n     - Verwende neutralere Sprache und Begriffskonstruktionen\n     - Vermeide Übertreibung oder Dramatisierung in der Darstellung\n     - Stelle Fakten vor Urteilen oder Interpretationen\n\n  2. Ergänzen fehlender Quellen:\n     - Überprüfe die Quellennachweise und kontrolliere, ob sie zutreffend sind\n     - Forsche nach weiteren relevante Quellen und verifiziere Informationen aus verschiedenen perspektiven\n     - Beteilige spezialisierte Experten an der Auswahl und Überprüfung von Quellen\n\n  3. Verbessern Ausgewogenheit:\n     - Stelle jeweils beide Seiten einer Frage oder Debatte dar\n     - Geben Sie gleiche Gewichtung zu den Argumenten für und gegen\n     - Versuche, Informationen aus mehreren Quellen zusammenzufassen und gegensätzliche Meinungen in das Bild einfließen zu lassen\n\n  4. Vermeiden manipulativer Techniken:\n     - Verwende keine Argumentation durch Beispielhaftigkeit oder Emotionalisierung von Fakten\n     - Vermeide die Verwendung von unzutreffenden Informationen, die nur zum Zweck der Manipulation eingesetzt werden\n     - Verwende keine Vergleiche, die eine bestimmte Stellungnahme verstärken oder verharmlosen"
+    },
+    "quantitative_metrics": {
+      "quality_score": 0.875,
+      "manipulation_score": 0.575,
+      "bias_score": 0.3,
+      "neutrality_score": 0.975
+    },
+    "confidence_scores": {},
+    "performance_metrics": {
+      "processing_time_seconds": 65.39898490905762,
+      "memory_usage_mb": 647.515625,
+      "tokens_per_second": 8.822766909950719,
+      "text_length": 4605,
+      "token_count": 577,
+      "cpu_percent": 15.6,
+      "memory_percent": 84.2
+    },
+    "input_text": "Argumentations-Mining ist ein interdisziplinäres Forschungsgebiet, das Philosophie, Psychologielinguistik und Informatik zur Erstellung von Argumentationsmodellen und automatisierten Methoden zur Identifizierung von Argumenten in schriftlichen Texten umfasst. Diese Tools bieten nicht nur neue Möglichkeiten Bildungsanwendungen wie intelligente Schreibunterstützung, Informationsabrufplattformen oder automatisierte Bewertungswerkzeuge, sondern eröffnen auch neue Möglichkeiten zur Verbesserung aktueller Rechtsinformationsabrufplattformen oder Richtlinienmodellierungsplattformen (Christian Stab and Iryna Gurevych 2015, 2).\nIn dieser Arbeit wurde ein Korpus von tausend annotierten Studenten Rezensionen erstellt und anschließend die Argumentation in Bezug darauf wie hilfreich die Argumentation, wie qualitativ hochwertig und wie gut die Argumentationsstruktur war bewertet. Wie hilfreich ein Argument war, wurde danach bewertet wie verständlich Argumente ausgedrückt waren und wie sinnvoll sie dem Leser erscheinen. Die Qualität wurde danach bewertet wie stark ein Argument ist, d.h. wenn Argumente durch eine oder mehrere sinnvolle Prämissen unterstützt. Je mehr sinnvolle Prämissen, desto stärker ist ein Argument. Die Struktur wurde danach bewertet wie einfach und logisch sich Beziehungen zwischen den einzelnen Argumentationskomponenten herstellen lassen. Die Studenten haben jeweils eine schriftliche Arbeit eines anderen Studenten argumentativ bewertet. Dabei sind diese auf die Stärken und Schwächen einer Arbeit eingegangen, um anschließend noch Verbesserungsvorschläge für eine Überarbeitung anzubringen.\nDie Fähigkeit überzeugende Argumente zu formulieren ist ein entscheidender Aspekt beim Erwerb von Schreibfähigkeiten. Einerseits sind gut definierte Argumente die Grundlage, um den Leser zu überzeugen, auf der anderen Seite sind gute Argumentationsfähigkeiten für die Analyse verschiedener Positionen bei der allgemeinen Entscheidungsfindung unerlässlich (Christian Stab and Iryna Gurevych 2014, 1501). Im Fall der Studenten Rezensionen gibt eine fundierte Argumentation einen guten Eindruck darüber wie gut die zugrundeliegende Studentenarbeit bearbeitet wurde. Sie zeigt dem Studenten, welcher die Arbeit verfasst hat, mit ausdrucksstarken Argumenten die Stärken und Schwächen auf und gibt ihm argumentativ unterstützende Verbesserungsvorschläge. Für die Annotation der Studenten Rezensionen wurden Regeln aufgestellt, welche auf Grundlage der erstellten Regeln von Christian Stab und Iryna Gurevych 2015 aufbauen. Die Regeln wurden angepasst, da es sich hier um deutschsprachige Rezensionen handelt und nicht um englischsprachige Überzeugungsaufsätze.\n2\n2. Argumentationskomponenten\nEin Argument besteht aus mehreren Aussagen. In seiner einfachsten Form enthält es eine Stellungnahme (claim), die von einer einzigen Prämisse (premise) unterstützt wird (Peldszus and Stede 2013; Britt and Larson, 2003; Toulmin 1958). Die Stellungnahme stellt eine kontroverse Aussage dar, von der der Autor versucht, den Leser zu überzeugen. Es ist in der Regel ein Satz oder eine Annahme und sollte vom Leser nicht ohne zusätzliche Unterstützung akzeptiert werden (Christian Stab and Iryna Gurevych 2015, 2). Prämissen können dabei nicht nur eine Stellungnahme unterstützen, sondern auch attackieren, was als Stilmittel verwendet wird oder auch Unsicherheit in der Argumentation verdeutlichen kann. Es können durchaus auch kompliziertere Konstellationen von Stellungnahmen und Prämissen bestehen, bei welchen eine Stellungnahme von mehreren verschiedenen Prämissen unterstützt wird oder von einer Kette aus Prämissen, bei welcher jede Prämisse wiederum durch eine andere Prämisse unterstützt wird. Genauso kann eine Stellungnahme durch eine Prämisse unterstützt werden und durch eine andere attackiert werden oder durch eine Prämisse unterstützt werden, welche wiederum durch eine andere Prämisse attackiert wird. Die einfachste Form kann folgendermaßen aussehen:\n<Stellungnahme> weil <Prämisse>\n3. Grenzen von Argumentationskomponenten\nArgumentationskomponenten decken nicht notwendigerweise einen kompletten Satz ab, denn häufig kann auch ein Satz aus mehreren Argumentationskomponenten, welche separat annotiert werden, bestehen. Ein Satz kann beispielsweise aus einer Stellungnahme und einer oder mehreren Prämissen bestehen. Genauso kann ein Satz mit sogenannten Phrasen beginnen wie z.B. „Meiner Meinung nach...“. Diese sind für den Inhalt der Argumentationskomponente nicht relevant, solange der Rest noch einen vollständigen Satz ergibt, aber dazu mehr in den folgenden aufgestellten Regeln."
+  },
+  "quantitative_metrics": {
+    "quality_score": 0.875,
+    "manipulation_score": 0.575,
+    "bias_score": 0.3,
+    "neutrality_score": 0.975
+  },
+  "performance_metrics": {
+    "processing_time_seconds": 65.39898490905762,
+    "memory_usage_mb": 647.515625,
+    "tokens_per_second": 8.822766909950719,
+    "text_length": 4605,
+    "token_count": 577,
+    "cpu_percent": 15.6,
+    "memory_percent": 84.2
+  },
+  "manual_evaluation": {},
+  "confidence_scores": {}
+}

@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "timestamp": "2024-12-16T03:46:45.323557",
+    "version": "2.0",
+    "models_used": [
+      "llama3.2:latest",
+      "mistral:latest"
+    ]
+  },
+  "analysis_results": {
+    "journalistic_quality": {
+      "response": " ASPEKT: Faktentreue\n   SCORE: 0.8\n   BEGRÜNDUNG: Die meisten der Angaben sind korrekt und treffend, jedoch gibt es einige leichte Unstimmigkeiten wie die Angabe des Telefonnummern \"Work\" ohne weitere Angaben zu dem genauen Zweck oder Kontaktperson.\n\n   ASPEKT: Ausgewogenheit\n   SCORE: 0.9\n   BEGRÜNDUNG: Die Information ist in etwa gleichmäßig verteilt, es gibt kein starkes Unwucht auf eine Seite des Textes.\n\n   ASPEKT: Quellenangaben\n   SCORE: 0.5\n   BEGRÜNDUNG: Es werden keine ausdrücklichen Quellen angegeben, sodass die Angaben nicht überprüfbar sind.\n\n   ASPEKT: Neutralität\n   SCORE: 0.9\n   BEGRÜNDUNG: Der Text scheint neutral zu sein und gibt keine Parteinahme oder Bias wahr."
+    },
+    "manipulation_analysis": {
+      "response": " ASPEKT: Emotionalisierung\nSCORE: 0.25\nBEGRÜNDUNG: Der Text verfügt über nur wenige emotionale Elemente und wird daher als leicht emotionalisiert beschrieben. Die Äußerung \"Deswegen verwenden wir sog. Cookies\" ist neutral ohne emotionalen Ton.\n\n   ASPEKT: Suggestion\nSCORE: 0.5\nBEGRÜNDUNG: Der Text suggeriert indirekt, dass das Lesen der Informationen auf der Website angenehm und praktisch sein wird, wenn Cookies akzeptiert werden. Dieser Vorschlag ist jedoch nicht explizit formuliert und daher nicht stark.\n\n   ASPEKT: Framing\nSCORE: 0.75\nBEGRÜNDUNG: Der Text gibt eine positive Darstellung der Website und ihrer Funktionalität durch den Hinweis auf die Möglichkeit, das Nutzungserlebnis an ihre Bedürfnisse anzupassen und die Verwendung von Cookies. Dies wird als positives Framing beschrieben, da es die Leser damit motivieren soll, die Website zu nutzen.\n\n   ASPEKT: Auslassung\nSCORE: 0.5\nBEGRÜNDUNG: Der Text fehlt Informationen über das Ziel oder den Inhalt der Website. Es gibt nur allgemeine Angaben wie \"Netzwerke und Kooperationen, Studium und Lehre, unite!, International, Forschung\". Eine ausreichende Auskunft über die Website wäre erwünscht, um potenzielle Benutzer zu informieren und sie an die Website zu binden."
+    },
+    "bias_detection": {
+      "response": " ASPEKT: Politischer Bias\nSCORE: 0.25\nBEGRÜNDUNG: Der Text enthält keine expliziten politischen Aussagen oder Ansichten, wodurch es nicht möglich ist, ein politisches Bias festzustellen.\n\nASPEKT: Ideologische Färbung\nSCORE: 0.25\nBEGRÜNDUNG: Der Text enthält keine ideologischen Aussagen oder Ansichten, wodurch es nicht möglich ist, ein ideologisches Bias festzustellen.\n\nASPEKT: Wirtschaftliche Interessen\nSCORE: 0.75\nBEGRÜNDUNG: Der Text weist durch die Angabe von Kontaktinformationen und eine Adresse einen wirtschaftlichen Bezug auf. Es wird darauf hingewiesen, dass die Nutzung der Website möglicherweise durch Cookies optimiert werden kann, was im Allgemeinen mit wirtschaftlichen Interessen in Verbindung gebracht wird.\n\nASPEKT: Kulturelle Voreingenommenheit\nSCORE: 0.25\nBEGRÜNDUNG: Der Text enthält keine expliziten culturellen Aussagen oder Ansichten, wodurch es nicht möglich ist, eine kulturelle Voreingenommenheit festzustellen."
+    },
+    "neutrality_analysis": {
+      "response": " ASPEKT: Faktentreue\n   SCORE: 0.85\n   BEGRÜNDUNG: Die meisten Angaben sind korrekt und treffen die Tatsache wider, dass es sich um Informationen zu Netzwerken und Kooperationen, Studium und Lehre, unite!, International und Forschung handelt. Lediglich der Hinweis, dass hier Informationen und das Nutzungserlebnis angepasst werden sollen, kann als subjektiv betrachtet werden.\n\n   ASPEKT: Ausgewogenheit\n   SCORE: 0.95\n   BEGRÜNDUNG: Es gibt keine erkennbaren Verzerrungen oder one-sidedness in der Darstellung, die Angaben sind im Allgemeinen neutral und objektiv.\n\n   ASPEKT: Quellenangaben\n   SCORE: 0.90\n   BEGRÜNDUNG: Es gibt keine expliziten Verweise auf Quellen für die Informationen, jedoch ist der Hinweis auf die Webseite selbst als Informationsquelle implizit vorhanden.\n\n   ASPEKT: Neutralität\n   SCORE: 0.95\n   BEGRÜNDUNG: Die Darstellung und Auswahl der Informationen erscheinen im Allgemeinen neutral, es gibt keine erkennbaren Bias oder Propaganda."
+    },
+    "recommendations": {
+      "response": "1. Emotionalisierung vermeiden:\n     - Verwende neutrales Sprachstil und vermeide überdrüssige Begriffe.\n     - Achte darauf, dass die Daten den Fakten entsprechen.\n     - Bleibe im Rahmen der Tatsachen berichten und vermeide Unklarheiten oder Phantasiearbeit.\n     - Verwende zuverlässige Quellen und verifiziere Informationen.\n\n  2. Fehlende Quellen ergänzen:\n     - Fülle alle Artikel mit zugänglichen, zuverlässigen Quellen aus.\n     - Verifiziere Informationen, bevor sie veröffentlicht werden.\n     - Achte darauf, dass die Quellen in den jeweiligen Artikeln verlinkt werden und die Leser auf deren Ureinwandung verweisen können.\n     - Verwende Open-Source-Materialien oder andere zugänglichen Informationsquellen.\n\n  3. Ausgewogenheit verbessern:\n     - Stelle verschiedene Meinungen dar, um eine ausgewogene Darstellung zu gewährleisten.\n     - Verwende Quellen, die unterschiedliche Perspektiven repräsentieren.\n     - Achte darauf, dass keine Seiten zu stark vertreten werden und dass die Daten unverzerrt präsentiert werden.\n     - Verwende visuelle Elemente oder Diagramme, um ausgewogenheit zu erhalten.\n\n  4. Manipulative Techniken vermeiden:\n     - Verwende keine verstörenden oder emotionale Bilder ohne angemessene Begründung.\n     - Achte darauf, dass die Berichterstattung unabhängig von politischen und finanziellen Interessen bleibt.\n     - Verzichte auf Schnappschüsse und sensationalistische Schlagzeilen oder Berichte.\n     - Verwende keine Propaganda- oder Rhetoriktechniken, um die Leser zu manipulieren."
+    },
+    "quantitative_metrics": {
+      "quality_score": 0.775,
+      "manipulation_score": 0.5,
+      "bias_score": 0.375,
+      "neutrality_score": 0.9124999999999999
+    },
+    "confidence_scores": {},
+    "performance_metrics": {
+      "processing_time_seconds": 39.831217765808105,
+      "memory_usage_mb": 662.765625,
+      "tokens_per_second": 2.359957974488328,
+      "text_length": 768,
+      "token_count": 94,
+      "cpu_percent": 18.6,
+      "memory_percent": 82.7
+    },
+    "input_text": "Übersicht Schnelleinstieg\n{{child.heading}}\nSie befinden sich hier: zurück zur Liste\n04.01.2024\nNetzwerke und Kooperationen,\nStudium und Lehre,\nunite!,\nInternational,\nForschung\nwork +49 6151 16-20475\nWork\nS3|12\nResidenzschloss\n64283\nDarmstadt\nWir möchten die Informationen und das Nutzungserlebnis auf dieser Webseite an Ihre Bedürfnisse anpassen.\nDeswegen verwenden wir sog. Cookies. Sie können selbst entscheiden, welche Cookies genau bei Ihrem Besuch unserer Webseiten gesetzt werden sollen.\nDiese essentiellen Cookies können nicht abgewählt werden.\nDer Komfort-Cookie speichert Ihre Spracheinstellung, während „Statistik“ die Auswertung durch die Open-Source-Statistik-Software „Matomo“ regelt.\nWeitere Informationen zum Einsatz von Cookies erhalten Sie in unserer"
+  },
+  "quantitative_metrics": {
+    "quality_score": 0.775,
+    "manipulation_score": 0.5,
+    "bias_score": 0.375,
+    "neutrality_score": 0.9124999999999999
+  },
+  "performance_metrics": {
+    "processing_time_seconds": 39.831217765808105,
+    "memory_usage_mb": 662.765625,
+    "tokens_per_second": 2.359957974488328,
+    "text_length": 768,
+    "token_count": 94,
+    "cpu_percent": 18.6,
+    "memory_percent": 82.7
+  },
+  "manual_evaluation": {},
+  "confidence_scores": {}
+}

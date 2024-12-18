@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "timestamp": "2024-12-16T09:45:40.206305",
+    "version": "2.0",
+    "models_used": [
+      "llama3.2:latest",
+      "mistral:latest"
+    ]
+  },
+  "analysis_results": {
+    "journalistic_quality": {
+      "response": ""
+    },
+    "manipulation_analysis": {
+      "response": ""
+    },
+    "bias_detection": {
+      "response": ""
+    },
+    "neutrality_analysis": {
+      "response": " ASPEKT: Faktentreue\n   SCORE: 0.85\n   BEGRÜNDUNG: Die meisten Angaben in dem Text stimmen mit den tatsächlichen Umständen überein.\n\n   ASPEKT: Ausgewogenheit\n   SCORE: 0.65\n   BEGRÜNDUNG: Der Text lehnt sich mehr auf eine Seite zu und gibt der Gegenseite wenig Raum.\n\n   ASPEKT: Quellenangaben\n   SCORE: 0.70\n   BEGRÜNDUNG: Es werden einige Quellen angegeben, allerdings fehlen weitere Informationen über die verwendeten Quellen.\n\n   ASPEKT: Neutralität\n   SCORE: 0.60\n   BEGRÜNDUNG: Der Text zeigt eine leichte Tendenz und ist nicht vollständig neutral."
+    },
+    "recommendations": {
+      "response": "1. Vermeiden von Emotionalisierung:\n     - Verwende neutrales Sprachstil und stehe sicher auf der Faktenbasis.\n     - Begrenze emotionale Werturteile und Schlagwörter.\n     - Stelle möglichst genaue Quellen an.\n\n  2. Ergänzen fehlender Quellen:\n     - Verwende vielfältige, hochvertrauenswürdige und unabhängige Quellen.\n     - Vergewisser dich, dass die genutzten Quellen aktuell sind und relevant für das Thema.\n     - Sorge dafür, dass alle relevanten Seiten berücksichtigt werden.\n\n  3. Verbessern der Ausgewogenheit:\n     - Sorge dafür, dass sowohl positive als auch negative Aspekte eines Themas dargestellt werden.\n     - Biete eine faire Darstellung aller relevanten Positionen.\n     - Stelle die unterschiedlichen Meinungen in einem angemessenen Verhältnis zur Bedeutung des Themas dar.\n\n  4. Vermeiden manipulativer Techniken:\n     - Verwende keine verzerrten, ausgewählten oder aufgeblähten Statistiken.\n     - Sorge dafür, dass alle relevanten Informationen berücksichtigt werden und kein Aspekt ignoriert wird.\n     - Stelle deine Meinung eindeutig dar und vermeide die Darstellung von subjektiven Erfahrungen als allgemeingültig."
+    },
+    "quantitative_metrics": {
+      "quality_score": 0.0,
+      "manipulation_score": 0.0,
+      "bias_score": 0.0,
+      "neutrality_score": 0.7000000000000001
+    },
+    "confidence_scores": {},
+    "performance_metrics": {
+      "processing_time_seconds": 66.66768002510071,
+      "memory_usage_mb": 565.265625,
+      "tokens_per_second": 0.0,
+      "text_length": 0,
+      "token_count": 0,
+      "cpu_percent": 16.6,
+      "memory_percent": 84.3
+    },
+    "input_text": ""
+  },
+  "quantitative_metrics": {
+    "quality_score": 0.0,
+    "manipulation_score": 0.0,
+    "bias_score": 0.0,
+    "neutrality_score": 0.7000000000000001
+  },
+  "performance_metrics": {
+    "processing_time_seconds": 66.66768002510071,
+    "memory_usage_mb": 565.265625,
+    "tokens_per_second": 0.0,
+    "text_length": 0,
+    "token_count": 0,
+    "cpu_percent": 16.6,
+    "memory_percent": 84.3
+  },
+  "manual_evaluation": {},
+  "confidence_scores": {}
+}

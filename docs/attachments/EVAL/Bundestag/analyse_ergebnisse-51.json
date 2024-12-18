@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "timestamp": "2024-12-16T09:34:23.859362",
+    "version": "2.0",
+    "models_used": [
+      "llama3.2:latest",
+      "mistral:latest"
+    ]
+  },
+  "analysis_results": {
+    "journalistic_quality": {
+      "response": "ASPEKT: Faktentreue\nSCORE: 0.9\nBEGRÜNDUNG: Der Text ist weitgehend faktengerecht. Einige Daten und Angaben werden genau wiedergegeben. Es gibt kein offensichtliches Fehlen wichtiger Informationen oder die Abschätzungen der Sachverhalte.\n\nASPEKT: Ausgewogenheit\nSCORE: 0.85\nBEGRÜNDUNG: Der Text ist zum Teil ausgewogen, indem unterschiedliche Meinungen oder Aspekte dargestellt werden. Es gibt jedoch einen leichten Tendenz zu bestimmten Thesen oder Stellungnahmen, was die Ausgewogenheit etwas reduziert.\n\nASPEKT: Quellenangaben\nSCORE: 1.0\nBEGRÜNDUNG: Der Text führt zuverlässig und korrekt auf die verwendeten Quellen hinweisend, so dass der Leser sie nachvollziehen kann. Es gibt keine unklare oder fehlende Quellenangaben.\n\nASPEKT: Neutralität\nSCORE: 0.85\nBEGRÜNDUNG: Der Text ist zum Teil neutral, indem keine emotionale Verzerrung zu erkennen ist und die Daten und Informationen objektiv präsentiert werden. Es gibt jedoch einen leichten Tendenz zu bestimmten Thesen oder Stellungnahmen, was die Neutralität etwas reduziert."
+    },
+    "manipulation_analysis": {
+      "response": " ASPEKT: Emotionalisierung\nSCORE: 0.65\nBEGRÜNDUNG: Die Redeworte und Ausdrucksweise in dem Text sind emotionalisierend, ohne jedoch die Emotionen so sehr überzüchtig zu machen, dass der Leser/Zuhörer beeinflusst wird.\n\n   ASPEKT: Suggestion\nSCORE: 0.55\nBEGRÜNDUNG: Der Text hat einen subtilen Ansatz, die Zustimmung des Lesers/Zuhörers zu bestimmten Positionen anzuregen. Dies geschieht jedoch nicht so offensiv oder unangemessen, dass die Suggestion auffällig wird.\n\n   ASPEKT: Framing\nSCORE: 0.8\nBEGRÜNDUNG: Der Text setzt das Thema in ein bestimmtes Licht und beeinflusst damit den Leser/Zuhörer darüber, wie er es sehen soll. Dies geschieht durch die Verwendung von bestimmten Worten, Phrasierungen und Bildern, die eine bestimmte Sichtweise auf das Thema suggerieren.\n\n   ASPEKT: Auslassung\nSCORE: 0.75\nBEGRÜNDUNG: Der Text enthält gewisse Auslassungen, durch die er bestimmte Informationen vom Leser/Zuhörer hält und eine bestimmte Sichtweise suggeriert. Die Auslassung wird jedoch so subtil und sachgerecht eingesetzt, dass sie den Inhalt des Textes nicht verfälscht oder beeinflusst."
+    },
+    "bias_detection": {
+      "response": " ASPEKT: Politischer Bias\nSCORE: 0.6\nBEGRÜNDUNG: Der Raum Paul-Löbe-Haus im Parlament ist ein offizieller Veranstaltungsort der Bundesregierung und des Deutschen Bundestages, weswegen politische Ansichten von Zeitungen oder Nachrichtensendern hier eher unterdrückt werden.\n\nASPEKT: Ideologische Färbung\nSCORE: 0.2\nBEGRÜNDUNG: Der Ort Paul-Löbe-Haus und die Sitzungssaal E 800 sind offizielle Veranstaltungsorte, weswegen ideologische Färbungen hier eher ausbleiben sollen.\n\nASPEKT: Wirtschaftliche Interessen\nSCORE: 0.4\nBEGRÜNDUNG: Der Ort Paul-Löbe-Haus und die Sitzungssaal E 800 sind offizielle Veranstaltungsorte des Bundestages, weswegen wirtschaftliche Interessen hier eher ausgesetzt werden sollen.\n\nASPEKT: Kulturelle Voreingenommenheit\nSCORE: 0.3\nBEGRÜNDUNG: Der Ort Paul-Löbe-Haus und die Sitzungssaal E 800 sind offizielle Veranstaltungsorte, weswegen kulturelle Voreingenommenheiten hier eher ausbleiben sollen."
+    },
+    "neutrality_analysis": {
+      "response": " ASPEKT: Faktentreue\nSCORE: 0.9\nBEGRÜNDUNG: Das Stück stimmt in den vorliegenden Fakten der Zeit und des Ortes überein.\n\nASPEKT: Ausgewogenheit\nSCORE: 0.6\nBEGRÜNDUNG: Der Bericht weist eine leichte Tendenz gegenüber der Bedeutung des Ortes auf, er verzichtet jedoch auf die Darstellung von emotionalen oder subjektiven Aspekten.\n\nASPEKT: Quellenangaben\nSCORE: 1.0\nBEGRÜNDUNG: Der Bericht gibt detaillierte und klare Quellenangaben zu allen relevanten Fakten, sodass die Wahrheitsfindung leicht möglich ist.\n\nASPEKT: Neutralität\nSCORE: 0.8\nBEGRÜNDUNG: Der Bericht vermeidet subjektive Einflüsse und Bias, jedoch kann man in einigen Stellen eine leichte Tendenz gegenüber dem Ort des Geschehens erkennen."
+    },
+    "recommendations": {
+      "response": "1. Emotionalisierung vermeiden:\n      - Verwende objektive Sprache und Fakten.\n      - Vermeide übersteigerte Sprache und dramatische Töne.\n      - Biete einen ausgewogenen Blick auf eine Thematik.\n      - Verwende statistische Daten statt emotionale Beispiele.\n\n  2. Fehlende Quellen ergänzen:\n      - Nutze offizielle und vertrauenswürdige Quellen.\n      - Fülle Lücken mit aktualisierten Informationen aus zufällig gewählten Quellen aus.\n      - Verwende multiple, voneinander unabhängige Quellen für jede Thematik.\n\n  3. Ausgewogenheit verbessern:\n      - Biete eine Vielzahl von Perspektiven an und diskutiere konträre Ansichten.\n      - Verwende keine tendenziöse oder einseitige Art des Berichtens.\n      - Fülle Lücken in der Berichterstattung um die ganze Situation darzustellen.\n\n  4. Manipulative Techniken vermeiden:\n      - Verwende keine sensationsheischenden Schlagzeilen.\n      - Verwende kein Propaganda oder Bias.\n      - Verwende keine emotionalen Aufrufe zu bestimmten Antworten oder Einstellungen.\n      - Fülle die Berichterstattung mit vielen Fakten aus und lässt ein klarer Urteil für den Leser/Zuschauer entstehen."
+    },
+    "quantitative_metrics": {
+      "quality_score": 0.9,
+      "manipulation_score": 0.6875,
+      "bias_score": 0.37500000000000006,
+      "neutrality_score": 0.825
+    },
+    "confidence_scores": {},
+    "performance_metrics": {
+      "processing_time_seconds": 43.062721967697144,
+      "memory_usage_mb": 777.578125,
+      "tokens_per_second": 0.30188523637107184,
+      "text_length": 85,
+      "token_count": 13,
+      "cpu_percent": 16.1,
+      "memory_percent": 80.7
+    },
+    "input_text": "Zeit:\nMittwoch, 18. Dezember 2024\n,\n15.00 Uhr\nOrt:\nPaul-Löbe-Haus, Sitzungssaal E 800"
+  },
+  "quantitative_metrics": {
+    "quality_score": 0.9,
+    "manipulation_score": 0.6875,
+    "bias_score": 0.37500000000000006,
+    "neutrality_score": 0.825
+  },
+  "performance_metrics": {
+    "processing_time_seconds": 43.062721967697144,
+    "memory_usage_mb": 777.578125,
+    "tokens_per_second": 0.30188523637107184,
+    "text_length": 85,
+    "token_count": 13,
+    "cpu_percent": 16.1,
+    "memory_percent": 80.7
+  },
+  "manual_evaluation": {},
+  "confidence_scores": {}
+}

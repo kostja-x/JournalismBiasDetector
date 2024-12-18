@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "timestamp": "2024-12-16T11:12:12.953907",
+    "version": "2.0",
+    "models_used": [
+      "llama3.2:latest",
+      "mistral:latest"
+    ]
+  },
+  "analysis_results": {
+    "journalistic_quality": {
+      "response": " ASPEKT: Faktentreue\n   SCORE: 1.0\n   BEGRÜNDUNG: Die Information über den bundesweiten Rückruf von Rosenkohl bei der Supermarktkette Rewe ist wörtlich getreu gemeldet und beruht auf offiziellen Stellungnahmen der betroffenen Parteien.\n\n   ASPEKT: Ausgewogenheit\n   SCORE: 0.8\n   BEGRÜNDUNG: Die Berichterstattung zeigt eine gewisse Ausgewogenheit durch die Berücksichtigung des Vorgehens von anderen Supermärkten wie Aldi, Lidl und Kaufland, um ebenfalls überprüfen zu lassen, ob ihr Rosenkohl eklig schmeckt.\n\n   ASPEKT: Quellenangaben\n   SCORE: 1.0\n   BEGRÜNDUNG: Die Berichterstattung basiert auf offizieller Stellungnahmen der betroffenen Parteien und es werden explizit die Namen der Supermärkte angeführt.\n\n   ASPEKT: Neutralität\n   SCORE: 0.9\n   BEGRÜNDUNG: Die Berichterstattung ist weitestgehend neutral, da sie keine ausdrücklichen Beurteilungen oder Bewertungen der Sachverhalte oder der Beteiligten enthält. Lediglich die Ausdrucksweise in \"einfach ein Affront gegen die Geschmacksnerven\" und \"Pfui!\" könnten möglicherweise als leichte Negative Töne gewertet werden, jedoch sind diese in diesem Kontext übliche und im deutschen Sprachgebrauch verbreitete Ausdrücke."
+    },
+    "manipulation_analysis": {
+      "response": " ASPEKT: Emotionalisierung\n   SCORE: 0.85\n   BEGRÜNDUNG: Die Sprache ist emotional hochgradig, verwendet verstärkende Adjektive wie \"eklig\", \"unangenehm\" und \"widernatürlich\". Der Leser soll aufgefordert werden, Gefühl zu haben, dass das Produkt ein schlimmes Erlebnis für ihn sein würde.\n\n   ASPEKT: Suggestion\n   SCORE: 0.95\n   BEGRÜNDUNG: Der Text suggeriert stark, dass der Leser den Rosenkohl nicht kaufen oder essen solle und stattdessen entweder das Produkt entsorgen oder es im Bio- oder Restmüll legen sollte. Die Suggestion ist sehr stark formuliert.\n\n   ASPEKT: Framing\n   SCORE: 0.90\n   BEGRÜNDUNG: Das Framing des Textes ist negativ und verursacht einen nichtwünschenswerten Eindruck von der Qualität des Produkts. Die Worte \"widernatürlich\", \"affront gegen die Geschmacksnerven\" und \"diese Sprossen im Bio- oder Restmüll\" bilden den Hauptteil des negativen Framings.\n\n   ASPEKT: Auslassung\n   SCORE: 0.75\n   BEGRÜNDUNG: Der Text lässt die Leser ohne weiteres zu vermuten, dass der Rosenkohl von allen Supermärkten betroffen ist, nicht nur von Rewe. Auch der Grund für den Rückruf wird ausgespart und nur als \"interne Qualitätstests ergebenen unangenehmen Geschmack\" beschrieben."
+    },
+    "bias_detection": {
+      "response": " ASPEKT: Politischer Bias\n   SCORE: 0.0\n   BEGRÜNDUNG: Das Artikelinhalt ist weder politisch ausgerichtet noch zeigt er einen politischen Bias.\n\n   ASPEKT: Ideologische Färbung\n   SCORE: 0.0\n   BEGRÜNDUNG: Es gibt keine Anzeichen für ideologische Färbung im Artikelinhalt.\n\n   ASPEKT: Wirtschaftliche Interessen\n   SCORE: 1.0\n   BEGRÜNDUNG: Der Artikel berichtet umfassend über ein wirtschaftliches Ereignis, das eine Supermarktkette betrifft und es werden Konsequenzen für andere Unternehmen angekündigt.\n\n   ASPEKT: Kulturelle Voreingenommenheit\n   SCORE: 0.0\n   BEGRÜNDUNG: Der Artikel zeigt keine kulturellen Vorurteile oder Voreingenommenheiten."
+    },
+    "neutrality_analysis": {
+      "response": " ASPEKT: Faktentreue\n   SCORE: 1.0\n   BEGRÜNDUNG: Der Text gibt eine tatsächliche Information über einen bundesweiten Rückruf von Rosenkohl bei Rewe an.\n\n   ASPEKT: Ausgewogenheit\n   SCORE: 0.5\n   BEGRÜNDUNG: Der Text ist eher negativ geprägt und beschreibt das Produkt nur als widerlich. Es gibt keinerlei Informationen über Vorteile oder die Qualität des Rosenkohl bei Rewe vor dem Problembeschreiben.\n\n   ASPEKT: Quellenangaben\n   SCORE: 1.0\n   BEGRÜNDUNG: Der Text nennt die Quelle, von der er informiert wurde (dpo).\n\n   ASPEKT: Neutralität\n   SCORE: 0.5\n   BEGRÜNDUNG: Der Text ist eher emotional geprägt und beschreibt das Produkt als widerlich. Es gibt keine neutralen oder objektiven Bemerkungen zu dem Produkt, was eine potenzielle Neutralität verletzt."
+    },
+    "recommendations": {
+      "response": "1. Emotionalisierung vermeiden:\n     - Verwende neutrale Sprache und stehe auf distanzierten Beobachtungen statt emotionaler Reaktionen.\n     - Vermeide persönliche Stilmittel wie Ausrufezeichen, Wortwahl oder Melodramatik.\n\n  2. Fehlende Quellen ergänzen:\n     - Suche ausgewogene und verlässliche Quellen für Fakten.\n     - Bedeute die Fehlerquellen korrekt durch Nachforschung oder Kontakt mit ursprünglichen Quellen.\n\n  3. Ausgewogenheit verbessern:\n     - Prüfe das Maß an Aufmerksamkeit und Raum, das jedem Thema gegeben wird.\n     - Verwende verschiedene Perspektiven und Stimmen um eine ausgewogene Darstellung zu gewährleisten.\n\n  4. Manipulative Techniken vermeiden:\n     - Verwende nicht persönliche Angriffe, Schimpfworte oder Provokationen.\n     - Prüfe die Motive und Interessen der Quellen und vertraue nur auf verlässliche und unparteiische Informationsquellen."
+    },
+    "quantitative_metrics": {
+      "quality_score": 0.9249999999999999,
+      "manipulation_score": 0.8624999999999999,
+      "bias_score": 0.25,
+      "neutrality_score": 0.75
+    },
+    "confidence_scores": {},
+    "performance_metrics": {
+      "processing_time_seconds": 45.21214199066162,
+      "memory_usage_mb": 1011.5,
+      "tokens_per_second": 3.826405748166774,
+      "text_length": 1246,
+      "token_count": 173,
+      "cpu_percent": 16.1,
+      "memory_percent": 82.1
+    },
+    "input_text": "Köln (dpo) - Von einem bundesweiten Rückruf ist derzeit Rosenkohl der Supermarktkette Rewe betroffen. Interne Qualitätstests hatten zuvor einen ekligen, unangenehmen und viel zu gesunden Geschmack ergeben, auf den niemand Lust hat. Betroffen sind sämtliche von Rewe angebotenen Rosenkohlprodukte, darunter die Marken \"Rewe Bio\", \"ja!\" und \"Iglo\" sowie frischer Rosenkohl aus der Gemüseabteilung.  \"Falls Sie in den letzten Tagen bei uns Rosenkohl gekauft haben, essen Sie ihn auf keinen Fall\", so eine Rewe-Sprecherin. \"Das ist einfach ein Affront gegen die Geschmacksnerven, wir können nicht deutlich genug davon abraten.\" Unter Vorlage des Kassenzettels erhalten Kunden, die das Produkt gekauft haben, ihr Geld zurück. Der Rosenkohl soll aber gar nicht erst ins Geschäft zurückgebracht werden: \"Nein, danke! Pfui! Am besten entsorgen Sie die Sprossen im Bio- oder Restmüll.\"\nDer Konzern bittet alle Kunden aufrichtig um Entschuldigung, das widerliche Produkt überhaupt jemals ins Sortiment aufgenommen zu haben. Auch weitere Supermärkte wie Aldi, Lidl oder Kaufland wollen nun überprüfen, ob ihr Rosenkohl eklig schmeckt, und entsprechende Konsequenzen ziehen.\nNur für Postillon-Minus-Abonnenten. Einloggen und den Postillon werbefrei genießen:"
+  },
+  "quantitative_metrics": {
+    "quality_score": 0.9249999999999999,
+    "manipulation_score": 0.8624999999999999,
+    "bias_score": 0.25,
+    "neutrality_score": 0.75
+  },
+  "performance_metrics": {
+    "processing_time_seconds": 45.21214199066162,
+    "memory_usage_mb": 1011.5,
+    "tokens_per_second": 3.826405748166774,
+    "text_length": 1246,
+    "token_count": 173,
+    "cpu_percent": 16.1,
+    "memory_percent": 82.1
+  },
+  "manual_evaluation": {},
+  "confidence_scores": {}
+}

@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "timestamp": "2024-12-16T03:57:42.047737",
+    "version": "2.0",
+    "models_used": [
+      "llama3.2:latest",
+      "mistral:latest"
+    ]
+  },
+  "analysis_results": {
+    "journalistic_quality": {
+      "response": " ASPEKT: Faktentreue\n   SCORE: 1.0\n   BEGRÜNDUNG: Alle Angaben im Text stimmen mit den tatsächlichen Zahlen und Daten überein (z.B. Anzahl der Stipendien, die Hälfte der Fördersumme durch Fördernde/Bund).\n\n   ASPEKT: Ausgewogenheit\n   SCORE: 1.0\n   BEGRÜNDUNG: Der Text bietet eine ausgewogene Darstellung aller Beteiligten an dem Projekt (Studierende, TU, Fördernde und Bund). Es gibt kein einseitiges Fokus auf einen bestimmten Aspekt.\n\n   ASPEKT: Quellenangaben\n   SCORE: 0.5\n   BEGRÜNDUNG: Es werden keine externe Quellen oder Referenzen angeführt, um die Informationen zu belegen oder zu unterstützen. Es wäre angemessen, zumindest eine Quelle für die Informationen über das Deutschlandstipendium und den Zweck des Programms anzugeben.\n\n   ASPEKT: Neutralität\n   SCORE: 1.0\n   BEGRÜNDUNG: Der Text ist neutral geschrieben, es gibt keine emotionale oder parteiische Bias in der Darstellung. Die Informationen werden präzise und objektiv dargestellt."
+    },
+    "manipulation_analysis": {
+      "response": " ASPEKT: Emotionalisierung\n   SCORE: 0.5\n   BEGRÜNDUNG: Das Textstück emotionalisiert die Lage durch den Dank an die Stifter und den Hinweis auf Netzwerke und neue Perspektiven, die durch sie geschaffen werden. Es gibt auch einige emotive Worte wie \"herzlich\" und \"trotz\".\n\n   ASPEKT: Suggestion\n   SCORE: 1.0\n   BEGRÜNDUNG: Das Textstück verwendet eine direkte Suggestion, indem es das Leser/Leserin auffordert, weitere Informationen zu erhalten und eine Aktion (einen Besuch der Webseite) auszuführen.\n\n   ASPEKT: Framing\n   SCORE: 1.0\n   BEGRÜNDUNG: Das Textstück verwendet ein positives Frame, indem es die Beteiligung der Stifterinnen und Stifter als Vorteil für alle Beteiligten darstellt und damit eine positive Wirkung auf das Leser/Leserin ausdrückt.\n\n   ASPEKT: Auslassung\n   SCORE: 0.3\n   BEGRÜNDUNG: Das Textstück gibt nur wenige Informationen über die Umstände, in denen die Stipendien vergeben wurden (zum Beispiel, dass es sich um die Förderperiode 2023/24 handelt) oder über die Hintergrunde der Stifter. Es gibt auch keine Erklärung für den Begriff \"Residenzschloss\"."
+    },
+    "bias_detection": {
+      "response": " ASPEKT: Politischer Bias\n   SCORE: 0.1\n   BEGRÜNDUNG: Der Text zeigt keinen wahrnehmbaren politischen Bias, da die Berichterstattung über die Vergabe von Deutschlandstipendien an der TU Darmstadt nicht aus politischen Gründen, sondern aus einer Unterstützung finanziell begabter Studierender durch verschiedene Förderer geschah.\n\n   ASPEKT: Ideologische Färbung\n   SCORE: 0.0\n   BEGRÜNDUNG: Der Text zeigt keinerlei ideologische Färbung, da es sich um neutral berichtete Informationen über die Vergabe von Deutschlandstipendien an der TU Darmstadt handelt.\n\n   ASPEKT: Wirtschaftliche Interessen\n   SCORE: 0.8\n   BEGRÜNDUNG: Der Text verrät ein gewisses Interesse an wirtschaftlichen Themen, da er über eine Kooperation zwischen der TU Darmstadt und Unternehmen sowie Privatpersonen zur Vergabe von Deutschlandstipendien berichtet. Dies kann für die beteiligten Unternehmen zu einer günstigen öffentlichen Wahrnehmung führen.\n\n   ASPEKT: Kulturelle Voreingenommenheit\n   SCORE: 0.1\n   BEGRÜNDUNG: Der Text zeigt keinerlei kulturelle Voreingenommenheit, da erneut neutral berichtete Informationen über die Vergabe von Deutschlandstipendien an der TU Darmstadt vorliegen."
+    },
+    "neutrality_analysis": {
+      "response": " ASPEKT: Faktentreue\n   SCORE: 1.0\n   BEGRÜNDUNG: Die Angaben über die Anzahl der Stipendien und deren Finanzierung durch Fördernde sind genau und treffend dargestellt. Es wird auch aufgenommen, dass die Hälfte der Kosten vom Bund und den Partnern getragen wird.\n\n   ASPEKT: Ausgewogenheit\n   SCORE: 0.8\n   BEGRÜNDUNG: Das Textstück ist zumeist ausgewogen zwischen Informationen zur TU Darmstadt, dem Deutschlandstipendium und den Förderern. Es wird aber etwas mehr betont, was die TU Darmstadt erreicht oder wie sie von den Förderern unterstützt wird, als das Engagement der Förderer selbst oder ihre Motive.\n\n   ASPEKT: Quellenangaben\n   SCORE: 1.0\n   BEGRÜNDUNG: Keine offensichtlichen Quellenfehler vorhanden. Die Angaben sind mit Verweisen auf die TU Darmstadt und ihren Präsidentinnen unterstützt.\n\n   ASPEKT: Neutralität\n   SCORE: 0.8\n   BEGRÜNDUNG: Es gibt etwas eindeutige Werbung für das Deutschlandstipendium und die TU Darmstadt in dem Text, was die Neutralität leicht beeinträchtigt. Allerdings wird auch auf den Vorteil für die Förderer hingewiesen."
+    },
+    "recommendations": {
+      "response": "1. Emotionalisierung vermeiden:\n     - Verwende objektive und neutral wahlende Sprache\n     - Reduziere emotionale Wortwahl und Ausdrucksmittel\n     - Stütze auf Fakten und Zahlen, anstatt auf emotionalisierenden Berichten\n\n  2. Fehlende Quellen ergänzen:\n     - Suche zusätzliche Quellen, um eine ausgewogene Sichtweise zu gewährleisten\n     - Verwende offizielle und unabhängige Informationsquellen\n     - Verwende multiple Quellen für jede Information oder Behauptung\n\n  3. Ausgewogenheit verbessern:\n     - Stelle eine fair und unparteiische Berichterstattung sicher\n     - Biete ein breites Spektrum an Meinungen und Perspektiven\n     - Verwende kontextualisierte und komplexe Diskurse um mehrere Seiten darzustellen\n\n  4. Manipulative Techniken vermeiden:\n     - Verweigere die Berichterstattung von ungesicherten oder spekulativen Informationen\n     - Verwerfe falsche Behauptungen und Falschinformationen\n     - Verwende nicht emotionale, manipulative oder sensations-strebende Sprache und Schlagzeilen"
+    },
+    "quantitative_metrics": {
+      "quality_score": 0.875,
+      "manipulation_score": 0.7,
+      "bias_score": 0.25,
+      "neutrality_score": 0.8999999999999999
+    },
+    "confidence_scores": {},
+    "performance_metrics": {
+      "processing_time_seconds": 49.034907817840576,
+      "memory_usage_mb": 1047.71875,
+      "tokens_per_second": 9.299497445656288,
+      "text_length": 3588,
+      "token_count": 456,
+      "cpu_percent": 15.2,
+      "memory_percent": 77.6
+    },
+    "input_text": "Übersicht Schnelleinstieg\n{{child.heading}}\nSie befinden sich hier: zurück zur Liste\n01.02.2024\nIn der aktuellen Förderperiode 2023/24 konnte an insgesamt 385 Studierende der TU Darmstadt ein Deutschlandstipendium vergeben werden. Das vom Bund vorgegebene Kontingent von 375 wurde somit um zehn Stipendien übertroffen. Für ein Jahr erhalten die Studierenden nun jeweils 300 Euro monatlich. Die feierliche Übergabe der Stipendien fand gestern in der Otto-Berndt-Halle statt.\nDie Anzahl an Stipendien verdankt die TU ihrem tragfähigen Netz an Fördernden: Insgesamt 112 Fördernde, darunter Unternehmen, Stiftungen, Vereine und Privatpersonen, beteiligten sich. Gemeinsam bringen sie die Hälfte der Fördersumme auf; der Bund beteiligt sich mit der gleichen Summe. „Ich danke allen Stifterinnen und Stiftern sehr herzlich, dass Sie 385 talentierte Studierende unserer Universität mit dem Deutschlandstipendium unterstützen. Durch die Kooperation entstehen zudem Netzwerke, von denen unsere Studierenden genauso profitieren, wie die Stifterinnen und Stifter. Und Netzwerke sind wichtig: sie eröffnen Chancen und neue Perspektiven, sie bauen Brücken zwischen Wissenschaft und Gesellschaft und sie sind nicht zuletzt nötig, um Innovationen entstehen zu lassen“, so TU-Präsidentin Tanja Brühl.\nIch danke allen Stifterinnen und Stiftern sehr herzlich, dass Sie 385 talentierte Studierende unserer Universität mit dem Deutschlandstipendium unterstützen.\nProfessorin Dr. Tanja Brühl, Präsidentin der TU Darmstadt\nDas Deutschlandstipendium ist ein gelebtes Beispiel für den Austausch mit Gesellschaft und Wirtschaft. Es stellt eine Win-Win-Situation für alle Beteiligten dar: Studierende gewinnen finanzielle und ideelle Unterstützung – sie können Beziehungen für die spätere Karriere aufbauen. Die TU gewinnt Partner aus Wirtschaft und Gesellschaft. Den Stipendiengebenden kann die Beteiligung am Deutschlandstipendium auch als Rekrutierungsinstrument dienen: Sie lernen junge Talente bereits „im Hörsaal“ kennen. Viele Fördernde bieten „ihren“ Stipendiat:innen ideelle Unterstützung, Beratung, Schulterblicke, fachlichen Austausch – kurz: die Gelegenheit zur Vernetzung. Erfreulich bleibt, dass das Engagement der Stipendienstiftenden trotz der auch für sie wirtschaftlich herausfordernden Zeiten nicht nachlässt. Die gestrige Feierstunde zur Übergabe der Stipendien-Urkunden fand in der Otto-Berndt-Halle (Mensa Stadtmitte) statt. Im Festakt berichteten Förder:innen von ihren Aktivitäten, Erlebnissen und Erfahrungen mit ihren Stipendiat:innen. Mit dem Deutschlandstipendium will die Bundesregierung den Grundstein für eine neue, starke Stipendienkultur in Deutschland legen. Das Stipendienprogramm wurde im Jahr 2011 gestartet und funktioniert nach dem Prinzip „halbe-halbe“: Die Hälfte der monatlichen Zuwendungen, 150 Euro, kommt vom Bund, für die andere Hälfte muss die TU Financiers wie Stiftungen, Privatpersonen und Unternehmen finden.\nMehr erfahren\neml/bjb\nAuszeichnung,\nStudium und Lehre,\nxchange\nwork +49 6151 16-20475\nWork\nS3|12\nResidenzschloss\n64283\nDarmstadt\nWir möchten die Informationen und das Nutzungserlebnis auf dieser Webseite an Ihre Bedürfnisse anpassen.\nDeswegen verwenden wir sog. Cookies. Sie können selbst entscheiden, welche Cookies genau bei Ihrem Besuch unserer Webseiten gesetzt werden sollen.\nDiese essentiellen Cookies können nicht abgewählt werden.\nDer Komfort-Cookie speichert Ihre Spracheinstellung, während „Statistik“ die Auswertung durch die Open-Source-Statistik-Software „Matomo“ regelt.\nWeitere Informationen zum Einsatz von Cookies erhalten Sie in unserer"
+  },
+  "quantitative_metrics": {
+    "quality_score": 0.875,
+    "manipulation_score": 0.7,
+    "bias_score": 0.25,
+    "neutrality_score": 0.8999999999999999
+  },
+  "performance_metrics": {
+    "processing_time_seconds": 49.034907817840576,
+    "memory_usage_mb": 1047.71875,
+    "tokens_per_second": 9.299497445656288,
+    "text_length": 3588,
+    "token_count": 456,
+    "cpu_percent": 15.2,
+    "memory_percent": 77.6
+  },
+  "manual_evaluation": {},
+  "confidence_scores": {}
+}

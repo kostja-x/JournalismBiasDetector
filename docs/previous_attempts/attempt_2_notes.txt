@@ -1,0 +1,1 @@
+Attempt 2: PDF parsing errors due to unsupported encoding. Resolved by updating PyPDF2.

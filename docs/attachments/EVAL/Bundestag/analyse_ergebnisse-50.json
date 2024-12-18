@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "timestamp": "2024-12-16T09:33:05.872431",
+    "version": "2.0",
+    "models_used": [
+      "llama3.2:latest",
+      "mistral:latest"
+    ]
+  },
+  "analysis_results": {
+    "journalistic_quality": {
+      "response": " ASPEKT: Faktentreue\n   SCORE: 1.0\n   BEGRÜNDUNG: Der Text gibt eine treue Darstellung der Ereignisse, wie sie in der tatsächlichen Veranstaltung geschahen.\n\n   ASPEKT: Ausgewogenheit\n   SCORE: 1.0\n   BEGRÜNDUNG: Es gibt keine Vorurteile oder Missverständnisse gegenüber Parteien oder Personen im Text, er ist neutral.\n\n   ASPEKT: Quellenangaben\n   SCORE: 1.0\n   BEGRÜNDUNG: Die angegebene Quelle des Textes ist transparenter und verifizierbar.\n\n   ASPEKT: Neutralität\n   SCORE: 1.0\n   BEGRÜNDUNG: Der Text gibt keine Stellungnahme oder Bewertung gegenüber den Parteien oder Personen, die in ihm erwähnt sind, und ist neutral beschrieben."
+    },
+    "manipulation_analysis": {
+      "response": " ASPEKT: Emotionalisierung\n   SCORE: 0.0\n   BEGRÜNDUNG: Der Text ist objektiv und enthält keine emotionalisierenden Elemente.\n\n   ASPEKT: Suggestion\n   SCORE: 0.0\n   BEGRÜNDUNG: Der Text stellt keine Vorschläge oder suggeriert kein Handeln.\n\n   ASPEKT: Framing\n   SCORE: 0.3\n   BEGRÜNDUNG: Der Text gibt eine allgemeine Einführung zum Thema der Regierungsbefragung, was als Frame für die Wahrnehmung des Inhalts gesehen werden kann.\n\n   ASPEKT: Auslassung\n   SCORE: 0.5\n   BEGRÜNDUNG: Der Text gibt keine genauen Informationen über die Inhalte der morgendlichen Kabinettssitzung, was als eine Form von Auslassung angesehen werden kann."
+    },
+    "bias_detection": {
+      "response": " ASPEKT: Politischer Bias\nSCORE: 0.0\nBEGRÜNDUNG: Die Passage beschränkt sich auf eine Beschreibung der Regierungsbefragung im Deutschen Bundestag und gibt keine Aussagen oder Werturteile bezüglich von Politikern oder ihrer Parteien vor.\n\n   ASPEKT: Ideologische Färbung\nSCORE: 0.0\nBEGRÜNDUNG: Die Passage beschränkt sich auf eine Beschreibung der Regierungsbefragung im Deutschen Bundestag und gibt keine Aussagen oder Werturteile bezüglich von politischen Ideologien vor.\n\n   ASPEKT: Wirtschaftliche Interessen\nSCORE: 0.0\nBEGRÜNDUNG: Die Passage beschränkt sich auf eine Beschreibung der Regierungsbefragung im Deutschen Bundestag und gibt keine Aussagen oder Hinweise bezüglich von wirtschaftlichen Interessen vor.\n\n   ASPEKT: Kulturelle Voreingenommenheit\nSCORE: 0.0\nBEGRÜNDUNG: Die Passage beschränkt sich auf eine Beschreibung der Regierungsbefragung im Deutschen Bundestag und gibt keine Aussagen oder Hinweise bezüglich von kulturellen Voreingenommenheiten vor."
+    },
+    "neutrality_analysis": {
+      "response": " ASPEKT: Faktentreue\n   SCORE: 1.0\n   BEGRÜNDUNG: Der Text stellt genau die Tatsache dar, dass die Bundesverteidigungsministerin und die Bundesministerin für Wohnen, Stadtentwicklung und Bauwesen sich den Fragen der Abgeordneten stellen werden.\n\n   ASPEKT: Ausgewogenheit\n   SCORE: 0.95\n   BEGRÜNDUNG: Der Text berichtet objektiv über die Abläufe im Deutschen Bundestag und gibt einige Einzelheiten zur Regierungsbefragung preis, wobei es keine Aussagen oder Bewertungen enthält, die die Ausgewogenheit beeinflussen könnten.\n\n   ASPEKT: Quellenangaben\n   SCORE: 1.0\n   BEGRÜNDUNG: Der Text gibt eine genaue Quelle für den Text an, die offizielle Internetseite des Deutschen Bundestages.\n\n   ASPEKT: Neutralität\n   SCORE: 1.0\n   BEGRÜNDUNG: Der Text berichtet objektiv über die Abläufe im Deutschen Bundestag und gibt keine Aussagen oder Bewertungen vor, die eine Verletzung der Neutralität bedeuten könnten."
+    },
+    "recommendations": {
+      "response": "1. Vermeiden von Emotionalisierung:\n     - Verwende neutrales Sprachstil und stehe auf der Distanz zu den Themen.\n     - Beseitige emotive Wörter, Adjektive und Sätze aus dem Text.\n     - Fokusiere auf den Inhalt statt auf den Stimmung oder Gefühlswellen, die erzeugt werden sollten.\n\n  2. Ergänzung fehlender Quellen:\n     - Verwende verifizierte und zuverlässige Informationen von diversen Quellen.\n     - Beseitige Spekulationen, Vermutungen oder unbestätigte Fakten aus dem Text.\n     - Verwende direkte Zitate für Behauptungen, um die Zuverlässigkeit des Inhalts zu stärken.\n\n  3. Ausgewogenheit verbessern:\n     - Beseitige eine einseitige Darstellung oder Berichterstattung.\n     - Verwende Gegenviews und Gegenargumente für umstrittene Themen.\n     - Lass die Leserschaft selbst entscheiden, indem Sie alle wichtigen Informationen zur Verfügung stellen.\n\n  4. Vermeiden manipulativer Techniken:\n     - Beseitige Verzerrungen oder Ungenauigkeiten in der Berichterstattung.\n     - Verwende nicht manipulative Wörter, Adjektive oder Bilder, die eine bestimmte Einstellung hervorrufen sollen.\n     - Stelle alle relevanten Informationen zur Verfügung und lass Leserschaft selbst entscheiden."
+    },
+    "quantitative_metrics": {
+      "quality_score": 1.0,
+      "manipulation_score": 0.2,
+      "bias_score": 0.0,
+      "neutrality_score": 0.9875
+    },
+    "confidence_scores": {},
+    "performance_metrics": {
+      "processing_time_seconds": 36.847902059555054,
+      "memory_usage_mb": 933.15625,
+      "tokens_per_second": 3.96223371859893,
+      "text_length": 1324,
+      "token_count": 146,
+      "cpu_percent": 11.0,
+      "memory_percent": 80.2
+    },
+    "input_text": "Bundesverteidigungsminister Boris Pistorius und Bundesbauministerin Klara Geywitz stellen sich den Fragen der Abgeordneten. (© DBT/Thomas Trutschel/photothek)\nLiveübertragung: Mittwoch, 18. Dezember, 13 Uhr\nDie Sitzungswoche beginnt am Mittwoch, 18. Dezember 2024, mit der eineinhalbstündigen Regierungsbefragung. Darin stellen sich Bundesverteidigungsminister Boris Pistorius (SPD) und die Bundesministerin für Wohnen, Stadtentwicklung und Bauwesen Klara Geywitz (SPD) den Fragen der Abgeordneten.  In Sitzungswochen können die Abgeordneten des Deutschen Bundestages mittwochs nach der Sitzung des Bundeskabinetts über die dort besprochenen Vorhaben Auskunft erhalten und Fragen an die Bundesregierung stellen. Die Regierungsbefragung im Plenum dient der Erstinformation der Abgeordneten. Sie beginnt mit je bis zu achtminütigen Berichten der Bundesministerinnen oder -minister zu Themen der morgendlichen Sitzung. Anschließend kann zunächst zu diesen Themen, dann zu weiteren Themen der Kabinettssitzung und schließlich zu sonstigen Angelegenheiten gefragt werden. (eis/09.12.2024)\nSitzungsverlauf\nDeutscher Bundestag, Online-Dienste\n© Deutscher Bundestag  {Ausdruck aus dem Internet-Angebot des Deutschen Bundestages https://www.bundestag.de/dokumente/textarchiv/2024/kw51-de-regierungsbefragung-1027946 Stand: 16.12.2024"
+  },
+  "quantitative_metrics": {
+    "quality_score": 1.0,
+    "manipulation_score": 0.2,
+    "bias_score": 0.0,
+    "neutrality_score": 0.9875
+  },
+  "performance_metrics": {
+    "processing_time_seconds": 36.847902059555054,
+    "memory_usage_mb": 933.15625,
+    "tokens_per_second": 3.96223371859893,
+    "text_length": 1324,
+    "token_count": 146,
+    "cpu_percent": 11.0,
+    "memory_percent": 80.2
+  },
+  "manual_evaluation": {},
+  "confidence_scores": {}
+}

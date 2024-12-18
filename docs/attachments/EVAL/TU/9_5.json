@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "timestamp": "2024-12-16T03:59:43.836192",
+    "version": "2.0",
+    "models_used": [
+      "llama3.2:latest",
+      "mistral:latest"
+    ]
+  },
+  "analysis_results": {
+    "journalistic_quality": {
+      "response": " ASPEKT: Faktentreue\n   SCORE: 1.0\n   BEGRÜNDUNG: Der Text bezieht sich auf eine Studie, die vom Team um Amin Rahimzadeh und Sebastian Stock aus der TU Darmstadt vorgestellt wird und in \"Advanced Science\" veröffentlicht wurde. Das Wortlaut des Artikels ist genau wiedergegeben und gibt eine gute Faktentreue wider.\n\n   ASPEKT: Ausgewogenheit\n   SCORE: 1.0\n   BEGRÜNDUNG: Der Text bietet keine Aussagen oder Interpretationen, sondern beschreibt lediglich das Ergebnis der Studie. Es gibt keine Vorurteile oder Unvollständigkeit der Information.\n\n   ASPEKT: Quellenangaben\n   SCORE: 1.0\n   BEGRÜNDUNG: Der Text enthält eine genaue Verweisung auf den Artikel und die Publikation in \"Advanced Science\". Die Namen der Autoren und die Zitate sind auch angegeben.\n\n   ASPEKT: Neutralität\n   SCORE: 1.0\n   BEGRÜNDUNG: Der Text ist neutral und bietet keine Emotionalisierung oder Stellungnahme zu den Ergebnissen der Studie. Die Informationen werden nur beschrieben, ohne eine Beurteilung oder Einschätzung vorzunehmen."
+    },
+    "manipulation_analysis": {
+      "response": " ASPEKT: Emotionalisierung\nSCORE: 0.1\nBEGRÜNDUNG: Der Text zeigt eine minimale Verwendung emotionalisierender Sprache und keine besonderen Effekte zur Erweckung von Affekt oder Gefühl.\n\nASPEKT: Suggestion\nSCORE: 0.2\nBEGRÜNDUNG: Der Text enthält nur eine geringe Verwendung suggestiver Sprache, wobei die potenziellen Anwendungen vage beschrieben werden.\n\nASPEKT: Framing\nSCORE: 0.6\nBEGRÜNDUNG: Das Thema der Studie wird im Titel und in den ersten Sätzen des Textes eingeführt und gegebenenfalls in folgenden Abschnitten detaillierter beschrieben. Die Schwerpunkte liegen auf den Neuerscheinungen in der Technologie und den potenziellen Anwendungsbereichen.\n\nASPEKT: Auslassung\nSCORE: 0.3\nBEGRÜNDUNG: Der Text enthält eine geringe Verwendung von Auslassungen, die für Verständnis nicht notwendig sind und dem Leser keine zusätzlichen Erkenntnisse bieten."
+    },
+    "bias_detection": {
+      "response": " ASPEKT: Politischer Bias\nSCORE: 0.0\nBEGRÜNDUNG: Der Artikel enthält keinen Hinweis auf politische Affiliierung, Interessen oder Stellungnahmen.\n\nASPEKT: Ideologische Färbung\nSCORE: 0.0\nBEGRÜNDUNG: Der Artikel enthält keinerlei ideologische Aussagen oder Bemerkungen, sondern beschränkt sich rein auf die Darstellung der Forschungsarbeiten und Ergebnisse.\n\nASPEKT: Wirtschaftliche Interessen\nSCORE: 0.6\nBEGRÜNDUNG: Der Artikel gibt an, dass die Ergebnisse der Forschung bei vielen industriellen Anwendungen interessant sein könnten, insbesondere bei Prozessen zur Vermischung von Öl und Wasser oder der Verwendung von Mikrogel-Perlen als Wirkstofftransporter.\n\nASPEKT: Kulturelle Voreingenommenheit\nSCORE: 0.0\nBEGRÜNDUNG: Der Artikel enthält keine kulturellen Aspekte oder Bemerkungen, sondern beschränkt sich rein auf die Darstellung der Forschungsarbeiten und Ergebnisse."
+    },
+    "neutrality_analysis": {
+      "response": " ASPEKT: Faktentreue\n   SCORE: 1.0\n   BEGRÜNDUNG: Der Artikel ist in der tatsächlichen Darstellung der Forschungsergebnisse durch die TU-Darmstadt treu geblieben. Die erläuterten Vorgänge und Ergebnisse stimmten mit den Angaben in der wissenschaftlichen Publikation \"Ultrasound-Induced Adsorption of Acousto-Responsive Microgels at Water–Oil Interface\" überein.\n\n   ASPEKT: Ausgewogenheit\n   SCORE: 1.0\n   BEGRÜNDUNG: Der Artikel bietet eine ausgewogene Darstellung der Forschungsergebnisse ohne unangemessenes Vorurteil oder Vorenthalten von relevanten Informationen.\n\n   ASPEKT: Quellenangaben\n   SCORE: 1.0\n   BEGRÜNDUNG: Die verwendete wissenschaftliche Publikation wurde entsprechend angegeben.\n\n   ASPEKT: Neutralität\n   SCORE: 1.0\n   BEGRÜNDUNG: Der Artikel zeigt keine überzogene Neigung oder Bias hinsichtlich der vorgestellten Forschungsergebnisse."
+    },
+    "recommendations": {
+      "response": "1. Vermeiden von Emotionalisierung:\n     - Verwende objektive Sprache und Fakten anstelle emotionaler Tonlagen.\n     - Vermeide Übertreibung oder Dramatisierung der Ereignisse.\n     - Bleibe faire bei der Darstellung von Personen, Gruppen oder Organisationen.\n\n  2. Ergänzung fehlender Quellen:\n     - Nutze offizielle und gesicherte Informationen.\n     - Verwende Quellen mit hoher Autorität und Reputation.\n     - Zitiere mehrere Quellen, um eine vergleichbare Darstellung zu gewährleisten.\n\n  3. Verbesserung der Ausgewogenheit:\n     - Bleibe unparteiisch bei der Berichterstattung und geben verschiedenen Seiten ausreichend Raum.\n     - Bleibe offen für beide Seiten einer Debatte, ohne ein Vorurteil gegenüber irgendeiner Partei aufzubringen.\n     - Verwende Fakten, um eine faire und objektive Darstellung zu gewährleisten.\n\n  4. Vermeiden manipulativer Techniken:\n     - Bleibe fair bei der Darstellung von Personen, Gruppen oder Organisationen.\n     - Vermeide eine verzerrte oder unvollständige Darstellung von Ereignissen.\n     - Verwende keine emotionalisierten Sprachmuster, die auf Manipulation hinzwecken.\n     - Geben fairen und sorgfältigen Berichten Vorrang vor der Sensationeller Berichterstattung."
+    },
+    "quantitative_metrics": {
+      "quality_score": 1.0,
+      "manipulation_score": 0.3,
+      "bias_score": 0.15,
+      "neutrality_score": 1.0
+    },
+    "confidence_scores": {},
+    "performance_metrics": {
+      "processing_time_seconds": 47.291847944259644,
+      "memory_usage_mb": 967.125,
+      "tokens_per_second": 11.101279032673649,
+      "text_length": 4079,
+      "token_count": 525,
+      "cpu_percent": 13.3,
+      "memory_percent": 78.6
+    },
+    "input_text": "Übersicht Schnelleinstieg\n{{child.heading}}\nSie befinden sich hier: zurück zur Liste\n12.03.2024\nvon Uta Neubauer\nIm Fachmagazin „Advanced Science“ beschreiben Forschende der TU Darmstadt, wie Ultraschall auf weiche Materie wirkt. Daraus ergeben sich neue medizinische und industrielle Anwendungen.\nIn der medizinischen Diagnostik und vielen anderen technischen Anwendungen spielt Ultraschall längst eine wichtige Rolle. Doch das Potenzial der für uns nicht hörbaren Schallwellen ist noch nicht ausgereizt. Im Fachmagazin „Advanced Science“ deutet ein Team um Amin Rahimzadeh und Sebastian Stock, beide Postdoktoranden am Institut für Physik Kondensierter Materie im Fachbereich Physik der TU Darmstadt, nun weitere Einsatzmöglichkeiten an. Die TU-Forschenden beschäftigen sich mit den Wechselwirkungen zwischen weicher Materie und Ultraschall. Weiche Materie ist in diesem Fall der Kunststoff PNIPAM (Poly-N-Isopropylacrylamid) in Form von winzigen Kügelchen. Diese quellen in Wasser zu glibberigen Mikrogel-Perlen mit einem Durchmesser von nur rund einem Tausendstel Millimeter. Der Clou: Unter Einwirkung von Ultraschall geben die Kügelchen das in ihrem Innern gebundene Wasser wieder ab und schrumpfen. Wird der Ultraschall ausgeschaltet, nehmen sie erneut Wasser auf. Das reversible Schrumpfen durch Ultraschall haben Rahimzadeh und Stock schon vor einigen Jahren entdeckt. In „Advanced Science“ stellen sie nun zusammen mit TU-Physikprofessorin Regine von Klitzing und der Arbeitsgruppe von Mario Kupnik, Professor im Fachbereich Elektrotechnik und Informationstechnik, einen weiteren interessanten Aspekt vor. „PNIPAM ist amphiphil, also sowohl wasser- als auch fettliebend“, erklärt Rahimzadeh. In einem Öl-Wasser-Gemisch wandern die Kügelchen daher an die Grenzfläche zwischen den beiden Flüssigkeiten und reduzieren so die Grenzflächenspannung. Infolgedessen mischen sich Öl und Wasser besser. In ihrer aktuellen Studie stellten die Forschenden fest, dass Ultraschall die Kügelchen nicht nur schrumpfen lässt, sondern auch ihre Anlagerung an die Öl-Wasser-Grenzfläche beschleunigt. Beide Effekte zusammen verringern die Grenzflächenspannung erheblich. Das dürfte für viele industrielle Prozesse interessant sein, denn Substanzen wie Wasser und Öl ließen sich mit PNIPAM-Perlen via Ultraschall mischen. Außerdem kann das Mikrogel nicht nur Wasser einlagern und quasi auf Knopfdruck wieder abgeben, sondern auch katalytisch oder pharmazeutisch aktive Substanzen. Besonders vielversprechend sei der Einsatz der Mikrogel-Perlen als Wirkstofftransporter in der Medizin, sagt Rahimzadeh: „Unter Einwirkung von Ultraschall könnten sie ihre Fracht gezielt an Zellmembranen und anderen Grenzflächen in unserem Körper freisetzen.“ Bis zur praktischen Anwendung werde aber noch einige Zeit vergehen, da für solche Zwecke umfangreiche Sicherheitsprüfungen und Zulassungsverfahren nötig seien. Es geht den Forschenden um Rahimzadeh und Stock ohnehin nicht vorrangig um neue Systeme für die Wirkstoffabgabe. Vielmehr möchten sie im Detail verstehen, wie Ultraschallwellen mit weichen Partikeln interagieren. Damit erschließen sie ein Gebiet, das noch weitgehend unerforscht ist. Sebastian Stock, Luca Mirau, Matthias Rutsch, Sonja Wismath, Mario Kupnik, Regine von Klitzing, Amin Rahimzadeh: „Ultrasound-Induced Adsorption of Acousto-Responsive Microgels at Water–Oil Interface“, in: Advanced Science, Volume 11, Issue 5, 2024 2305395\nMehr erfahren\nMatter + Materials (M+M),\nPhysik,\nForschung\nwork +49 6151 16-20475\nWork\nS3|12\nResidenzschloss\n64283\nDarmstadt\nWir möchten die Informationen und das Nutzungserlebnis auf dieser Webseite an Ihre Bedürfnisse anpassen.\nDeswegen verwenden wir sog. Cookies. Sie können selbst entscheiden, welche Cookies genau bei Ihrem Besuch unserer Webseiten gesetzt werden sollen.\nDiese essentiellen Cookies können nicht abgewählt werden.\nDer Komfort-Cookie speichert Ihre Spracheinstellung, während „Statistik“ die Auswertung durch die Open-Source-Statistik-Software „Matomo“ regelt.\nWeitere Informationen zum Einsatz von Cookies erhalten Sie in unserer"
+  },
+  "quantitative_metrics": {
+    "quality_score": 1.0,
+    "manipulation_score": 0.3,
+    "bias_score": 0.15,
+    "neutrality_score": 1.0
+  },
+  "performance_metrics": {
+    "processing_time_seconds": 47.291847944259644,
+    "memory_usage_mb": 967.125,
+    "tokens_per_second": 11.101279032673649,
+    "text_length": 4079,
+    "token_count": 525,
+    "cpu_percent": 13.3,
+    "memory_percent": 78.6
+  },
+  "manual_evaluation": {},
+  "confidence_scores": {}
+}

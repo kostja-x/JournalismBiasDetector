@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "timestamp": "2024-12-16T03:53:22.354952",
+    "version": "2.0",
+    "models_used": [
+      "llama3.2:latest",
+      "mistral:latest"
+    ]
+  },
+  "analysis_results": {
+    "journalistic_quality": {
+      "response": " ASPEKT: Faktentreue\n   SCORE: 0.85\n   BEGRÜNDUNG: Die Artikel sind generell faktentreu und bieten eine angemessene Information über die Start-ups und ihre Aktivitäten, jedoch könnten einige Daten genauer und präziser sein.\n\n   ASPEKT: Ausgewogenheit\n   SCORE: 0.75\n   BEGRÜNDUNG: Die Berichterstattung zeigt eine ausgezeichnete Ausgewogenheit, indem sie Informationen aus verschiedenen Perspektiven bietet und das Meinungs- und Wissensspektrum abdeckt.\n\n   ASPEKT: Quellenangaben\n   SCORE: 0.95\n   BEGRÜNDUNG: Die Artikel sind extrem gut in Bezug auf die Quellenangaben, indem sie genaue Angaben zu den Start-ups und ihren Aktivitäten beinhalten, um die Zuverlässigkeit der Informationen zu erhöhen.\n\n   ASPEKT: Neutralität\n   SCORE: 0.90\n   BEGRÜNDUNG: Die Berichterstattung zeigt eine hohe Neutralität, indem sie die Start-ups und ihre Aktivitäten objektiv beschreibt, ohne Vorenthalten oder Vorurteile zu vertreten."
+    },
+    "manipulation_analysis": {
+      "response": " ASPEKT: Emotionalisierung\nSCORE: 0.5\nBEGRÜNDUNG: Der Text verwendet ein positives Wort wie \"revolutionieren\" und beschreibt das Start-up \"OptiMigration\" als Lösung für den Behördendschungel, was eine Annäherung an Emotionalisierung darstellt.\n\n   ASPEKT: Suggestion\nSCORE: 0.6\nBEGRÜNDUNG: Die Informationen vermuten, dass die Lösungen von \"OptiMigration\", \"MoProX\" und \"Green Convenience\" positiv wirken werden, indem sie Behördendschungel lichten, Proteine zerstören können und die letzte Meile revolutionieren.\n\n   ASPEKT: Framing\nSCORE: 0.75\nBEGRÜNDUNG: Das Text setzt die Lösungen der Start-ups als positive Veränderung dar, indem es sie beispielsweise als \"revolutionierend\" oder als Lösung für einen Behördendschungel beschreibt. Das Framework wird benutzt, um das Leser/Leserin positiv auf die Start-ups zu einstimmen und ihr Vertrauen in diese zu schüren.\n\n   ASPEKT: Auslassung\nSCORE: 0.6\nBEGRÜNDUNG: Es gibt keine Auslassungen, aber es fehlt Informationen wie welche genauen Probleme die Start-ups lösen und wie sie ihre Produkte bzw. Plattformen konkret verwenden."
+    },
+    "bias_detection": {
+      "response": " ASPEKT: Politischer Bias\n   SCORE: 0.25\n   BEGRÜNDUNG: Die Auswahl der Geschichten scheint keinen offensichtlichen politischen Bias aufzuweisen, da sie über verschiedene Start-ups berichtet und weder links noch rechts tendenziös erscheint.\n\n   ASPEKT: Ideologische Färbung\n   SCORE: 0.25\n   BEGRÜNDUNG: Die Berichterstattung scheint keinerlei ideologische Auslegungen zu enthalten, sondern sich auf die technischen Aspekte und Entwicklungen der Start-ups konzentriert.\n\n   ASPEKT: Wirtschaftliche Interessen\n   SCORE: 0.75\n   BEGRÜNDUNG: Der Schwerpunkt der Berichterstattung liegt auf neuen Unternehmen, Innovationen und Technologien im Bereich Start-ups, was darauf schließen lässt, dass eine gewisse Wirtschaftsausrichtung vorliegt.\n\n   ASPEKT: Kulturelle Voreingenommenheit\n   SCORE: 0.25\n   BEGRÜNDUNG: Die Auswahl der Geschichten scheint keinerlei kulturellen Vorurteile oder voreingestellte Vorbehalte zu enthalten, da sie über verschiedene Start-ups und Branchen berichtet."
+    },
+    "neutrality_analysis": {
+      "response": " ASPEKT: Faktentreue\nSCORE: 1.0\nBEGRÜNDUNG: Alle Angaben über die Artikelthemen und Veröffentlichungsdaten sind korrekt.\n\nASPEKT: Ausgewogenheit\nSCORE: 1.0\nBEGRÜNDUNG: Die Artikel berichten objektiv über die verschiedenen Start-up-Projekte ohne eine klare Präferenz oder Kritik auszudrücken.\n\nASPEKT: Quellenangaben\nSCORE: 1.0\nBEGRÜNDUNG: Jeder Artikel verweist auf die Quelle der Informationen, in diesem Fall die URL der Seite.\n\nASPEKT: Neutralität\nSCORE: 1.0\nBEGRÜNDUNG: Es gibt keine Klärung oder kritischen Kommentare über die Berichterstattung oder die Start-up-Projekte. Alle Informationen sind objektiv präsentiert."
+    },
+    "recommendations": {
+      "response": "1. Emotionalisierung vermeiden:\n     - Verwende neutraler Sprachstil und fokussiere auf Fakten rather than emotionally charged words or phrases.\n     - Beseitige emotionalisierte Schlagworte, Bilder oder Kombinationen aus beiden.\n\n  2. Fehlende Quellen ergänzen:\n     - Benutze verlässliche Quellen und zitiere sie um die Authentizität Ihrer Informationen zu erhöhen.\n     - Fülle Lücken durch eigene Forschung oder indirekte Quellenauswertung.\n\n  3. Ausgewogenheit verbessern:\n     - Präsentiere sowohl Vorteile als auch Nachteile einer bestimmten Position und liebe keine unverhältnismäßige Bias zu einer Seite.\n     - Versuche, eine differenzierte Sichtweise anzunehmen, um eine umfassendere Perspektive zu gewähren.\n\n  4. Manipulative Techniken vermeiden:\n     - Verwende keine emotionalen Appeal oder unverhältnismäßige Gewaltbilder, um Eindrücke hervorzurufen.\n     - Beseitige übermäßige repetition oder polarisierendes Sprachstil."
+    },
+    "quantitative_metrics": {
+      "quality_score": 0.8624999999999999,
+      "manipulation_score": 0.6125,
+      "bias_score": 0.375,
+      "neutrality_score": 1.0
+    },
+    "confidence_scores": {},
+    "performance_metrics": {
+      "processing_time_seconds": 78.56804513931274,
+      "memory_usage_mb": 991.96875,
+      "tokens_per_second": 2.100090433807162,
+      "text_length": 1321,
+      "token_count": 165,
+      "cpu_percent": 0.0,
+      "memory_percent": 77.7
+    },
+    "input_text": "Übersicht Schnelleinstieg\n{{child.heading}}\nSie befinden sich hier: zurück zur Liste\n25.01.2024\nvon Anja Störiko\nGründungs- und Innovationszentrum HIGHEST,\nxchange\n12. Dezember 2024\nStart-up „OptiMigration“ lichtet mit KI-Plattform den Behördendschungel\n05. Dezember 2024\nDas Team von „MoProX“ entwickelt „Klebstoffe“, die schädliche Proteine zerstören können\n21. November 2024\nWie das Start-up „Green Convenience“ die letzte Meile revolutioniert\n12. Dezember 2024\nStart-up „OptiMigration“ lichtet mit KI-Plattform den Behördendschungel\n05. Dezember 2024\nDas Team von „MoProX“ entwickelt „Klebstoffe“, die schädliche Proteine zerstören können\n21. November 2024\nWie das Start-up „Green Convenience“ die letzte Meile revolutioniert\nwork +49 6151 16-20475\nWork\nS3|12\nResidenzschloss\n64283\nDarmstadt\nWir möchten die Informationen und das Nutzungserlebnis auf dieser Webseite an Ihre Bedürfnisse anpassen.\nDeswegen verwenden wir sog. Cookies. Sie können selbst entscheiden, welche Cookies genau bei Ihrem Besuch unserer Webseiten gesetzt werden sollen.\nDiese essentiellen Cookies können nicht abgewählt werden.\nDer Komfort-Cookie speichert Ihre Spracheinstellung, während „Statistik“ die Auswertung durch die Open-Source-Statistik-Software „Matomo“ regelt.\nWeitere Informationen zum Einsatz von Cookies erhalten Sie in unserer"
+  },
+  "quantitative_metrics": {
+    "quality_score": 0.8624999999999999,
+    "manipulation_score": 0.6125,
+    "bias_score": 0.375,
+    "neutrality_score": 1.0
+  },
+  "performance_metrics": {
+    "processing_time_seconds": 78.56804513931274,
+    "memory_usage_mb": 991.96875,
+    "tokens_per_second": 2.100090433807162,
+    "text_length": 1321,
+    "token_count": 165,
+    "cpu_percent": 0.0,
+    "memory_percent": 77.7
+  },
+  "manual_evaluation": {},
+  "confidence_scores": {}
+}

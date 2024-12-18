@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "timestamp": "2024-12-16T09:41:37.670556",
+    "version": "2.0",
+    "models_used": [
+      "llama3.2:latest",
+      "mistral:latest"
+    ]
+  },
+  "analysis_results": {
+    "journalistic_quality": {
+      "response": " ASPEKT: Faktentreue\nSCORE: 0.65\nBEGRÜNDUNG: Das berichtete Datum und Ort sind korrekt, jedoch fehlt eine genaue Bestimmung der behandelten Sitzung.\n\nASPEKT: Ausgewogenheit\nSCORE: 0.80\nBEGRÜNDUNG: Es gibt keine Beobachtungen, die einen deutlichen Unwägbarkeitsgrad in den Bericht einführen würden.\n\nASPEKT: Quellenangaben\nSCORE: 0.50\nBEGRÜNDUNG: Der Bericht enthält keine expliziten Quellenangaben, die die Informationsquelle oder die Quellenviabilität eindeutig bestimmen würden.\n\nASPEKT: Neutralität\nSCORE: 0.75\nBEGRÜNDUNG: Der Bericht wird von einer neutralen Perspektive berichtet, jedoch gibt es keine expliziten Hinweise auf eine Partei- oder Standpunkteinnehmung."
+    },
+    "manipulation_analysis": {
+      "response": "ASPEKT: Emotionalisierung\nSCORE: 0.6\nBEGRÜNDUNG: Der Text verwendet Emotionen wie Angst und Besorgnis durch das Benennen von einem \"Zeitpunkt\" (\"15.00 Uhr\") und den Verweis auf ein konkretes Gebäude (\"Paul-Löbe-Haus, Sitzungssaal E 800\").\n\nASPEKT: Suggestion\nSCORE: 0.4\nBEGRÜNDUNG: Der Text suggeriert eine bestimmte Situation oder Atmosphäre durch das Benennen eines \"Zeitpunktes\" (\"Mittwoch, 18. Dezember 2024\"), aber es gibt keine direkten impliziten oder expliziten Suggestionen in der veröffentlichten Textstelle.\n\nASPEKT: Framing\nSCORE: 0.3\nBEGRÜNDUNG: Das Textfragment benutzt kein Framework, da es nur eine Ankündigung darstellt und keine Inhalte oder Argumente enthält.\n\nASPEKT: Auslassung\nSCORE: 0.1\nBEGRÜNDUNG: Der Text fehlt jegliche Auslassungen im Hinblick auf die veröffentlichte Textstelle, da es nur eine Ankündigung darstellt und keine Inhalte oder Argumente enthält."
+    },
+    "bias_detection": {
+      "response": " ASPEKT: Politischer Bias\nSCORE: 0.6\nBEGRÜNDUNG: Der Raum der Sitzung im Paul-Löbe-Haus könnte eine gewisse politische Ausrichtung aufzeigen, indem er den Namen des Gründers der Deutschen Demokratischen Republik (DDR) trägt. Allerdings ist dies kein direkter Hinweis auf einen konkreten politischen Bias während der Sitzung.\n\n   ASPEKT: Ideologische Färbung\nSCORE: 0.4\nBEGRÜNDUNG: Es ist schwer, eine ideologische Färbung des Raums zu ermitteln aufgrund fehlender Hinweise in dem gegebenen Text.\n\n   ASPEKT: Wirtschaftliche Interessen\nSCORE: 0.3\nBEGRÜNDUNG: Auch bei den wirtschaftlichen Interessen gibt es keine Anzeichen, da das Paul-Löbe-Haus und die zugehörigen Sitzungsräume überwiegend auf repräsentative und diskursive Zwecke ausgelegt sind.\n\n   ASPEKT: Kulturelle Voreingenommenheit\nSCORE: 0.5\nBEGRÜNDUNG: Der Raum des Paul-Löbe-Hauses im Deutschen Bundestag ist ein offizieller Veranstaltungsort, der als Repräsentation von deutschen politischen Institutionen dient. Es gibt keine deutlichen Hinweise auf eine kulturelle Voreingenommenheit in dem gegebenen Text."
+    },
+    "neutrality_analysis": {
+      "response": " ASPEKT: Faktentreue\nSCORE: 0.9\nBEGRÜNDUNG: Die Informationen in dem Text sind weitgehend faktengerecht und stimmen mit den tatsächlichen Umständen überein.\n\nASPEKT: Ausgewogenheit\nSCORE: 0.8\nBEGRÜNDUNG: Der Bericht zeigt eine gewisse Neigung zur Darstellung der Ansichten, die das Parlament vertreten, aber er bietet auch eine gute Übersicht über die Geschehnisse und gibt den Lesern die Möglichkeit, ihre eigene Meinung zu bilden.\n\nASPEKT: Quellenangaben\nSCORE: 1.0\nBEGRÜNDUNG: Der Text enthält geeignete und verlässliche Quellen für die Informationen, die dargestellt werden, was den Lesern eine genaue Auskunft über die Grundlagen des Berichts bietet.\n\nASPEKT: Neutralität\nSCORE: 0.9\nBEGRÜNDUNG: Der Text zeigt einen hohen Grad an Neutralität, indem er die Geschehnisse beschreibt und keine emotionalen Töne benutzt, um die Leser einzuschüchtern oder zu beeinflussen. Es gibt nur wenige Zeichen von persönlicher Präferenz oder Bias."
+    },
+    "recommendations": {
+      "response": "1. Emotionalisierung vermeiden:\n     - Verwende fachliche Sprache und Fakten anstelle von emotionalen Ausdrücken\n     - Lass die Leserinnen/Leser selbst entscheiden, wie sie Empfindungen haben sollten\n     - Behute deine eigene Meinung zurück und beschränke dich auf die Präsentation der Tatsachen\n\n  2. Fehlende Quellen ergänzen:\n     - Fülle die Lücken durch eigenes Recherche- oder Forschungsarbeit\n     - Verwende vertrauenswürdige und reputable Quellen\n     - Zitiere mehrere unabhängige Quellen, um eine breite Perspektive zu bieten\n\n  3. Ausgewogenheit verbessern:\n     - Bedenke die Perspektive der Gegenseite und berücksichtige sie in deiner Darstellung\n     - Stelle nicht nur Vorteile dar, sondern zeige auch potenzielle Nachteile\n     - Lass Leserinnen/Leser sich selbst über die Informationen entscheiden\n\n  4. Manipulative Techniken vermeiden:\n     - Verwende keine Auswahl von Quellen, um eine bestimmte Meinung zu vermitteln\n     - Verzichte auf Hyperbole und Unwahrheiten\n     - Respektiere das Vertrauen der Leserinnen/Leser und deren Fähigkeit, sich selbst zu entscheiden"
+    },
+    "quantitative_metrics": {
+      "quality_score": 0.675,
+      "manipulation_score": 0.35000000000000003,
+      "bias_score": 0.45,
+      "neutrality_score": 0.9
+    },
+    "confidence_scores": {},
+    "performance_metrics": {
+      "processing_time_seconds": 64.71253299713135,
+      "memory_usage_mb": 618.21875,
+      "tokens_per_second": 0.20088844305594217,
+      "text_length": 85,
+      "token_count": 13,
+      "cpu_percent": 0.0,
+      "memory_percent": 81.0
+    },
+    "input_text": "Zeit:\nMittwoch, 18. Dezember 2024\n,\n15.00 Uhr\nOrt:\nPaul-Löbe-Haus, Sitzungssaal E 800"
+  },
+  "quantitative_metrics": {
+    "quality_score": 0.675,
+    "manipulation_score": 0.35000000000000003,
+    "bias_score": 0.45,
+    "neutrality_score": 0.9
+  },
+  "performance_metrics": {
+    "processing_time_seconds": 64.71253299713135,
+    "memory_usage_mb": 618.21875,
+    "tokens_per_second": 0.20088844305594217,
+    "text_length": 85,
+    "token_count": 13,
+    "cpu_percent": 0.0,
+    "memory_percent": 81.0
+  },
+  "manual_evaluation": {},
+  "confidence_scores": {}
+}

@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "timestamp": "2024-12-16T11:13:07.404159",
+    "version": "2.0",
+    "models_used": [
+      "llama3.2:latest",
+      "mistral:latest"
+    ]
+  },
+  "analysis_results": {
+    "journalistic_quality": {
+      "response": " ASPEKT: Faktentreue\n   SCORE: 0.0\n   BEGRÜNDUNG: Der Artikel erstellt eine absurde Behauptung über die Umorientierung des gesamten katarischen Volkes, was kein realer Ereignis ist.\n\n   ASPEKT: Ausgewogenheit\n   SCORE: 0.0\n   BEGRÜNDUNG: Der Artikel erstellt absurde Behauptungen und verzichtet auf eine sachliche Darstellung der Situation in Katar bezüglich Rechten von Homosexuellen.\n\n   ASPEKT: Quellenangaben\n   SCORE: 0.0\n   BEGRÜNDUNG: Der Artikel erstellt keine Angaben über Quellen, wodurch die Glaubwürdigkeit der Informationen in Frage gestellt wird.\n\n   ASPEKT: Neutralität\n   SCORE: 0.0\n   BEGRÜNDUNG: Der Artikel erstellt eine absurde Darstellung der Situation in Katar und benutzt humorvolle Unterton, was die Neutralität aufs Spiel setzt."
+    },
+    "manipulation_analysis": {
+      "response": " ASPEKT: Emotionalisierung\n   SCORE: 0.95\n   BEGRÜNDUNG: Der Autor emotionalisiert die Situation durch den Einsatz von emotional aufgeladenen Worten wie \"herzzerreißende\", \"anfällig\", \"hektischer\" und durch die Darstellung eines tragischen Geschehens (zerbrachende heterosexuelle Ehen und Liebesbeziehungen).\n\n   ASPEKT: Suggestion\n   SCORE: 0.85\n   BEGRÜNDUNG: Der Autor suggeriert, dass die Regeländerung durch die FIFA zu herzzerreißenden Konsequenzen geführt hat (zerbrechende heterosexuelle Ehen und Liebesbeziehungen), ohne dass hierfür eine wissenschaftliche Begründung gegeben wird.\n\n   ASPEKT: Framing\n   SCORE: 0.95\n   BEGRÜNDUNG: Der Autor gibt den Eindruck, dass die Situation durch das Vorgehen der FIFA und einiger europäischer Verbände verursacht wurde, indem er sie als aggressiven Akteur darstellt, der Chaos auslöst. Die Regierung Katar wird dagegen als Opfer dargestellt, ohne dass die Rolle von Katar selbst in der Entwicklung der Situation thematisiert wird.\n\n   ASPEKT: Auslassung\n   SCORE: 0.75\n   BEGRÜNDUNG: Der Autor vernachlässigt das Einbringen einer wissenschaftlichen Perspektive, um die konsequenten Effekte der Regeländerungen auf das katarische Volk zu diskutieren, und gibt nur einen Bericht von angeblichen Ereignissen ohne eine unabhängige Bestätigung."
+    },
+    "bias_detection": {
+      "response": " ASPEKT: Politischer Bias\n   SCORE: 0.95\n   BEGRÜNDUNG: Die Darstellung der Ereignisse in diesem Text zeigt einen deutlichen politischen Bias gegenüber Katar, indem es eine kritische und satirische Perspektive auf die Reaktion des katarischen Regierungschefs und seiner Regierung einnimmt.\n\n   ASPEKT: Ideologische Färbung\n   SCORE: 0.85\n   BEGRÜNDUNG: Der Text ist mit satirischen Elementen angereichert, die auf eine gewisse ideologische Färbung des Autors hinweisen.\n\n   ASPEKT: Wirtschaftliche Interessen\n   SCORE: 0.5\n   BEGRÜNDUNG: Der Text handelt nicht von wirtschaftlichen Interessen, sodass es keine Bewertung von diesen zu treffen ist.\n\n   ASPEKT: Kulturelle Voreingenommenheit\n   SCORE: 0.95\n   BEGRÜNDUNG: Der Text zeigt eine deutliche kulturelle Voreingenommenheit, indem er die katarische Kultur auf teufelische Weise karikiert und vereinnahmt."
+    },
+    "neutrality_analysis": {
+      "response": " ASPEKT: Faktentreue\n   SCORE: 0.1\n   BEGRÜNDUNG: Das Article enthält eine falsche Behauptung, wonach nahezu sämtliche heterosexuellen Ehen und Liebesbeziehungen Katar's plötzlich zerbrachen, nachdem Regenbogen-Fahnen und -Kleidungsstücke in WM-Stadien erlaubt wurden. Es gibt keinen Beweis für eine Verbindung zwischen diesen Ereignissen.\n\n   ASPEKT: Ausgewogenheit\n   SCORE: 0.0\n   BEGRÜNDUNG: Das Article ist stark tendenziös und präsentiert Katar in einem negativen Licht, während es keine Balance hinsichtlich der positiven Entwicklungen im Land gibt.\n\n   ASPEKT: Quellenangaben\n   SCORE: 0.0\n   BEGRÜNDUNG: Das Article stellt keine faktenbasierten Quellenangaben vor, um seine Behauptungen zu untermauern.\n\n   ASPEKT: Neutralität\n   SCORE: 0.0\n   BEGRÜNDUNG: Das Article zeigt eine deutliche Feindseligkeit gegen Katar und ist nicht neutral in der Berichterstattung über das Land."
+    },
+    "recommendations": {
+      "response": "1. Emotionalisierung vermeiden:\n     - Verwende neutrales Sprachstil und Schriftschnitt\n     - Vermeide Dramatisierungen oder Hyperbole\n     - Geben Sie begründete Fakten und Zahlen an Stelle von emotionalen Begründungen\n\n  2. Fehlende Quellen ergänzen:\n     - Nutze verlässliche, unabhängige Quellen\n     - Verwende mehrere Quellen für jede Information\n     - Geben Sie die Quellennachweise an\n\n  3. Ausgewogenheit verbessern:\n     - Stelle unterschiedliche Meinungen präsent\n     - Biete gleichmäßig Raum für positive und negative Aspekte einer Thematik\n     - Verwende proportionales Gewicht bei der Berichterstattung verschiedener Seiten einer Diskussion\n\n  4. Manipulative Techniken vermeiden:\n     - Verwende keine unvollständigen Informationen oder Falschaussagen\n     - Verwende keine emotional bedrängenden Bilder, Szenen oder Schlagzeilen\n     - Geben Sie die volle und richtige Wahrheit an, auch wenn diese nicht zu Ihrer Meinung passt"
+    },
+    "quantitative_metrics": {
+      "quality_score": 0.0,
+      "manipulation_score": 0.875,
+      "bias_score": 0.8125,
+      "neutrality_score": 0.025
+    },
+    "confidence_scores": {},
+    "performance_metrics": {
+      "processing_time_seconds": 45.681472063064575,
+      "memory_usage_mb": 1003.890625,
+      "tokens_per_second": 4.531377616601991,
+      "text_length": 1533,
+      "token_count": 207,
+      "cpu_percent": 13.6,
+      "memory_percent": 77.0
+    },
+    "input_text": "Doha (dpo) - Das haben sie jetzt davon! Weil Katar auf Druck der FIFA nachgegeben und Regenbogen-Fahnen sowie -Kleidungsstücke in WM-Stadien zugelassen hat, sind über Nacht plötzlich alle 2,7 Millionen Einwohner des Landes homosexuell geworden. \"Genau das wollten wir die ganze Zeit verhindern\", klagt Premierminister Khalid bin Khalifa bin Abdulaziz Al-Thani, während er auf dem Schoß von Vizepremierminister Mohammed bin Abdulrahman Al Thani sitzt. \"Wir wussten, wie anfällig das katarische Volk ist. Sobald wir auch nur einen Regenbogen sehen, ist es um uns geschehen.\" Er dreht sich um und fragt: \"Stimmt's, mein Hengst?\" Dann tauschten Premierminister und Vizepremierminister einen langen innigen Kuss aus. Tatsächlich spielten sich in Katar in der Nacht von Donnerstag auf Freitag herzzerreißende Szenen ab, als nahezu sämtliche heterosexuellen Ehen und Liebesbeziehungen des Landes praktisch zeitgleich zerbrachen und sich Männer und Frauen jeweils neue gleichgeschlechtliche Partner suchten. Derzeit prüfen katarische Wissenschaftler, ob es Wege gibt, die sexuelle Umorientierung des katarischen Volkes wieder rückgängig zu machen. Erste Versuche, die unter anderem stundenlanges Starren auf monochrome Stoffstücke beinhalteten, brachten bislang jedoch noch keine messbaren Resultate. Ob die WM inmitten dieses von der FIFA und einigen europäischen Verbänden angerichteten Chaos noch sinnvoll weitergeführt werden kann, ist derzeit fraglich.\nNur für Postillon-Minus-Abonnenten. Einloggen und den Postillon werbefrei genießen:"
+  },
+  "quantitative_metrics": {
+    "quality_score": 0.0,
+    "manipulation_score": 0.875,
+    "bias_score": 0.8125,
+    "neutrality_score": 0.025
+  },
+  "performance_metrics": {
+    "processing_time_seconds": 45.681472063064575,
+    "memory_usage_mb": 1003.890625,
+    "tokens_per_second": 4.531377616601991,
+    "text_length": 1533,
+    "token_count": 207,
+    "cpu_percent": 13.6,
+    "memory_percent": 77.0
+  },
+  "manual_evaluation": {},
+  "confidence_scores": {}
+}
