@@ -37,24 +37,24 @@ Primarily tested on **macOS** (Apple M1 Max, 32 GB RAM), but instructions for Wi
 
 ```
 JournalismBiasDetector/
-├─ .env.example              # Template for environment variables
-├─ README.md                 # This file
-├─ requirements.txt          # Python dependencies
+├─ .env.example
+├─ README.md          
+├─ requirements.txt
 ├─ docs/
-│  ├─ instructions_for_ollama.md   # Ollama setup details
-│  ├─ attachments/                 # Additional files (images, samples)
+│  ├─ instructions_for_ollama.md
+│  ├─ attachments/
 │  │  └─ sample_article.pdf
-│  └─ previous_attempts/           # Notes/logs of earlier experiments
+│  └─ previous_attempts/       
 │     ├─ attempt_1_notes.txt
 │     ├─ attempt_2_notes.txt
 │     └─ ...
 ├─ output/
-│  ├─ analyses/             # JSON results of analyses
+│  ├─ analyses/
 │  │  ├─ analysis_YYYYMMDD_HHMMSS.json
-│  └─ metrics/              # JSON performance metrics logs
+│  └─ metrics/
 │     ├─ metrics_YYYYMMDD_HHMMSS.json
 └─ src/
-   ├─ main.py               # Main Streamlit application code
+   ├─ main.py
    └─ (additional modules if needed)
 ```
 
