@@ -43,15 +43,15 @@ JournalismBiasDetector/
 ├─ docs/
 │  ├─ instructions_for_ollama.md
 │  ├─ attachments/
-│  │  └─ Eval.json (comming soon..)
+│  │  └─ Eval_raw.json (comming soon..)
 │  └─ previous_attempts/       
 │     ├─ comming soon..
 │     └─ ...
-├─ output/
+├─ output_details/
 │  ├─ analyses/
-│  │  ├─ analysis_YYYYMMDD_HHMMSS.json
+│  │  ├─ analysis.json (comming soon..)
 │  └─ metrics/
-│     ├─ metrics_YYYYMMDD_HHMMSS.json
+│     ├─ performance_metrics.json (comming soon..)
 └─ src/
    ├─ main.py
    └─ (additional modules if needed)
