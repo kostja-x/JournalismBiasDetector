@@ -1,6 +1,3 @@
-Below is the complete, humanized, and finalized README text. You can copy and paste it as is into your `README.md` file.
-
----
 
 # JournalismBiasDetector
 
