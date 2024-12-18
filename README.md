@@ -1,7 +1,7 @@
 
 # JournalismBiasDetector
 
-**JournalismBiasDetector** project was the practical part of my master's thesis! I This tool helps you analyze journalistic texts for various quality aspects, potential manipulation tactics, and underlying bias. It’s designed to be run locally with a Streamlit interface and a local LLM (via Ollama), ensuring you have full control over your data and models.
+**JournalismBiasDetector** project was the practical part of my master's thesis! This tool helps you analyze journalistic texts for various quality aspects, potential manipulation tactics, and underlying bias. It’s designed to be run locally with a Streamlit interface and a local LLM (via Ollama), ensuring you have full control over your data and models..
 
 ## What Does It Do?
 
