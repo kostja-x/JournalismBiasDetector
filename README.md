@@ -1,4 +1,3 @@
-```markdown
 # JournalismBiasDetector
 
 Welcome to the **JournalismBiasDetector**, the practical centerpiece of my master’s thesis. Throughout my research, I became increasingly curious about how subtle shifts in language, tone, and emphasis might shape our understanding of news events. This tool is my attempt to bring transparency to journalistic reporting by examining texts for quality, potential manipulations, and underlying biases. By harnessing local Large Language Models (LLMs) via Ollama—together with a Streamlit interface—you can run everything locally, retaining full control of your data and ensuring privacy.
