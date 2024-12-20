@@ -1,35 +1,52 @@
-
+```markdown
 # JournalismBiasDetector
 
-**JournalismBiasDetector** project was the practical part of my master's thesis! This tool helps you analyze journalistic texts for various quality aspects, potential manipulation tactics, and underlying bias. It’s designed to be run locally with a Streamlit interface and a local LLM (via Ollama), ensuring you have full control over your data and models..
+Welcome to the **JournalismBiasDetector**, the practical centerpiece of my master’s thesis. Throughout my research, I became increasingly curious about how subtle shifts in language, tone, and emphasis might shape our understanding of news events. This tool is my attempt to bring transparency to journalistic reporting by examining texts for quality, potential manipulations, and underlying biases. By harnessing local Large Language Models (LLMs) via Ollama—together with a Streamlit interface—you can run everything locally, retaining full control of your data and ensuring privacy.
 
-## What Does It Do?
+## What This Tool Does
 
 - **Assess Journalistic Quality:**  
-  Rates texts on factual accuracy, balance, proper source attribution, and neutrality.
-  
+  I wanted a clear, granular way to understand factual accuracy, balance, source usage, and neutrality. The JournalismBiasDetector breaks these qualities down, giving you nuanced insights rather than a single blanket score.
+
 - **Identify Manipulative Techniques:**  
-  Detects emotionalization, suggestive phrasing, framing, and omissions that might shape reader perception.
-  
+  Emotionalization, suggestive phrasing, framing, and omissions might all influence how we perceive a story. My tool flags these patterns to show how subtle narratives can shape your understanding.
+
 - **Uncover Bias:**  
-  Highlights potential political, ideological, economic, and cultural biases.
+  Political, ideological, economic, and cultural biases often lurk beneath the surface. By highlighting them, I hope to encourage critical engagement and awareness of hidden frames within reporting.
 
 - **Suggest Improvements:**  
-  Offers recommendations to enhance the neutrality and credibility of the content.
+  This isn’t just about pointing out problems. I’ve included recommendations to help journalists and editors move towards greater neutrality and credibility, and to guide readers in asking critical questions.
 
 - **Manual Feedback & Learning:**  
-  Integrate your own manual scores to adjust internal weighting, making future analyses more aligned with human judgment.
+  Over time, your manual evaluations can influence the internal weighting. My aim is that with your input, the system grows more aligned with genuine human editorial judgment.
 
 - **Performance Tracking & Similarity Search:**  
-  Collects metrics (processing time, memory usage) and uses ChromaDB to find similar past analyses.
+  To make sense of the process and continuously refine approaches, I’ve integrated performance metrics (processing time, memory usage) and ChromaDB-based similarity search, so you can compare new texts to past analyses and see broader patterns.
 
 ## Who’s It For?
 
-This is great for researchers, journalists, media literacy educators, or anyone curious about subtle influences in news reporting. You have everything locally — no remote dependencies — so you remain in control.
+I designed this tool for anyone interested in understanding subtle media influences:
+
+- **Researchers & Academics:**  
+  Perfect for media literacy studies, as it helps visualize and quantify subtle manipulations.
+
+- **Journalists & Editors:**  
+  A self-check to ensure your reporting stands up to scrutiny, and a guide for refining editorial approaches.
+
+- **Media Literacy Educators & Fact-Checkers:**  
+  Show students and readers how narratives are constructed. Encourage them to spot manipulations and biases in real-life reporting.
+
+- **Curious Readers & Enthusiasts:**  
+  If you’ve ever felt that a news story was nudging you towards a certain perspective, this tool can help confirm and articulate that intuition.
+
+Running locally means you stay in full control—no calls to external APIs, no data leaving your environment.
 
 ## Tested Environment
 
-Primarily tested on **macOS** (Apple M1 Max, 32 GB RAM), but instructions for Windows and Linux are also included. Performance depends on your hardware and model size.
+- **Platform:** Mostly tested on macOS (Apple M1 Max, 32 GB RAM).
+- **Hardware & Model Size:** Results vary based on your hardware and chosen model’s complexity.
+
+(Windows and Linux setups are possible with similar steps. Adjust as needed.)
 
 ---
 
@@ -46,27 +63,30 @@ JournalismBiasDetector/
    ├─ main.py
 ├─ .gitignore
 ├─ LICENCE
-├─ README.md          
+├─ README.md
 ├─ requirements.txt
 ```
 
-**Note:**  
-- `docs/attachments/` for supplementary materials (images, PDFs, etc.).  
-- `docs/previous_attempts/` for logging past approaches and learnings.  
-- `output/analyses/` and `output/metrics/` store generated analysis and metrics data.
+**Notes:**  
+- `docs/EVAL_Data/` holds evaluation JSON files showing how initial analyses turned out.
+- `docs/attachments/` contains images, PDF samples, and other supplementary materials.
+- `docs/previous_attempts/` includes notes and logs that illustrate my earlier experimental stages—some attempts were tedious and time-consuming, underlining the complexity of semantic multi-labeling.
+- `src/main.py` is where you’ll find the main Streamlit application code.
+- `requirements.txt` ensures you can reproduce the environment exactly.
 
 ---
 
 ## Requirements
 
 - **Python:** 3.10 or newer.
-- **Ollama:** For running local LLMs.
-- **Streamlit:** For the user interface.
-- Adequate system resources, especially if using large models.
+- **Ollama:** A must, since we rely on local LLMs. See Ollama’s documentation for installation details.
+- **Streamlit:** For the web-based interface.
+- **ChromaDB:** Helps with semantic searches of past analyses.
+- Adequate system resources, especially if you plan to run larger models.
 
 ---
 
-## Setup
+## Setup Instructions
 
 ### On macOS
 
@@ -76,242 +96,114 @@ JournalismBiasDetector/
    cd JournalismBiasDetector
    ```
 
-2. **Virtual environment & dependencies:**
+2. **Create a virtual environment & install dependencies:**
    ```bash
    python3 -m venv venv
    source venv/bin/activate
-=======
-A comprehensive tool to analyze journalistic texts for quality, potential manipulation techniques, and bias. The application uses local LLMs (via Ollama) and provides recommendations, performance metrics, and manual evaluation feedback loops.
-
-## Features
-- Analyze text from URL, direct input, or uploaded files (TXT, DOCX, PDF)
-- Assess journalistic quality, detect manipulation techniques, and identify bias
-- Provide improvement recommendations
-- Manual evaluation to adjust internal weighting
-- Performance metrics and export of JSON results
-- ChromaDB integration for similarity queries on previous analyses
-
-## Requirements
-- Python 3.10 or newer
-- Ollama installed and running locally
-- A local model (e.g. mistral) available in Ollama
-
-## Setup Instructions
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/GITHUB_USERNAME/JournalismBiasDetector.git
-   cd JournalismBiasDetector
-   ```
-
-2. Create and activate a virtual environment:
-   ```bash
-   python3 -m venv venv
-   source venv/bin/activate
-   ```
-
-3. Install dependencies:
-   ```bash
->>>>>>> d97a892 (Fix folder naming and add evaluation data)
    pip install --upgrade pip
    pip install -r requirements.txt
    ```
 
-<<<<<<< HEAD
-3. **Environment variables:**
+3. **Environment Variables (Optional):**
    ```bash
    cp .env.example .env
    ```
-   Adjust `OLLAMA_BASE_URL` if needed.
+   Adjust `OLLAMA_BASE_URL` or other settings if needed.
 
-### On Windows
-
-- **Native Python:**
-  ```powershell
-  git clone https://github.com/kostja-x/JournalismBiasDetector.git
-  cd JournalismBiasDetector
-  python -m venv venv
-  venv\Scripts\activate
-  pip install --upgrade pip
-  pip install -r requirements.txt
-  copy .env.example .env
-  ```
-  Make sure Ollama is accessible (may require WSL or another setup).
-
-- **WSL2 (Ubuntu):**
-  ```bash
-  sudo apt update && sudo apt install python3.10 python3.10-venv git -y
-  git clone https://github.com/kostja-x/JournalismBiasDetector.git
-  cd JournalismBiasDetector
-  python3.10 -m venv venv
-  source venv/bin/activate
-  pip install --upgrade pip
-  pip install -r requirements.txt
-  cp .env.example .env
-  ```
-
-### On Linux
-
-```bash
-sudo apt update
-sudo apt install python3.10 python3.10-venv git -y
-git clone https://github.com/kostja-x/JournalismBiasDetector.git
-cd JournalismBiasDetector
-python3.10 -m venv venv
-source venv/bin/activate
-pip install --upgrade pip
-pip install -r requirements.txt
-cp .env.example .env
-```
-
----
-
-## Ollama Setup
-
-1. **Install Ollama:**  
+4. **Ollama Setup:**
    Refer to [Ollama’s documentation](https://github.com/ollama/ollama).
 
-2. **Run Ollama:**
+   - Start the server:
+     ```bash
+     ollama serve
+     ```
+   - Check connectivity:
+     ```bash
+     curl http://localhost:11434/api/tags
+     ```
+   - Pull and list models:
+     ```bash
+     ollama pull mistral
+     ollama list
+     ```
+   Make sure the model matches what’s expected in `src/main.py`.
+
+5. **Run the Application:**
    ```bash
-   ollama serve
+   streamlit run src/main.py
    ```
+   Then open `http://localhost:8501` in your browser.  
+   Choose your model and input method in the sidebar, then select "Run Analysis."
 
-3. **Check connectivity:**
-   ```bash
-   curl http://localhost:11434/api/tags
-   ```
-   If you see JSON output, Ollama is working.
+### On Windows / Linux
 
-4. **Model Download:**
-   ```bash
-   ollama pull mistral
-   ollama list
-   ```
-   Make sure the model matches what’s used in `main.py`.
-
----
-
-## Running the Application
-
-Start Streamlit:
-
-```bash
-streamlit run src/main.py
-```
-
-Open `http://localhost:8501` in your browser. On the sidebar, select your model and input method. Then click “Run Analysis.”
+Follow similar steps (e.g., `python -m venv venv`, `venv\Scripts\activate` on Windows), ensuring Python 3.10+ is installed. Ollama might require WSL on Windows.
 
 ---
 
 ## Using the Tool
 
-1. **Input Methods:**
-   - **URL:** Paste a news article link.  
-   - **Direct Text:** Paste the article text directly.  
-   - **File Upload:** TXT, DOCX, or PDF files supported.
+1. **Input the Text:**
+   You can paste a URL, directly enter text, or upload a TXT/DOCX/PDF. The interface is meant to be straightforward.
 
-2. **Start Analysis:**
-   Click “Run Analysis” and wait for results. The tool cleans text, queries the LLM, and provides scores and explanations.
+2. **Run Analysis:**
+   The system cleans your text, talks to the chosen local model, and returns clarity on quality, manipulation, bias, plus improvement suggestions.
 
 3. **Manual Evaluation:**
-   Adjust sliders to provide your own scores. This feedback updates internal weights for more accurate future analyses.
+   If you disagree with any assessments, use the sliders to provide your own scores. Over time, your feedback refines the internal weightings.
 
 4. **Exporting Results:**
-   Download JSON results containing analyses and metrics. Check `output/analyses/` and `output/metrics/` for saved files.
+   Grab a JSON file with all analysis details. Check `docs/EVAL_Data/` for reference outputs and `output/` directories (if any) for metrics and analyses you run.
 
 ---
 
 ## Performance and Metrics
 
-The application tracks:
-- Processing time
-- Memory usage
-- Token counts
-- CPU and memory load
-
-Use these metrics to guide hardware upgrades or model choice.
-
----
-
-## Similarity and History
-
-ChromaDB is used to embed and store analyses for semantic similarity queries. You can compare new texts to past analyses, helping identify patterns or measure progress over time.
-
----
-
-## Security and Credentials
-
-- Store sensitive data in `.env` (already `.gitignore`d).
-- Consider using a credential manager for Git pushes.
-- Never commit tokens or passwords directly.
+I integrated performance metrics like processing time, memory usage, and token counts. If you experiment with different models or hardware, you can track improvements or issues over time. ChromaDB helps you find similar past analyses, so you can compare how different texts or system states produce different results.
 
 ---
 
 ## Attachments & Previous Attempts
 
-- **`docs/attachments/`:** Add images, sample articles, or benchmark reports.
-- **`docs/previous_attempts/`:** Keep notes on past strategies and lessons learned to trace the project’s evolution.
+- `docs/attachments/` holds images, PDFs, and benchmark reports.
+- `docs/previous_attempts/` catalogs the less successful experiments and all the lessons learned along the way. The `30 x Eval_raw.json` files, for example, show how extensive and painstaking those initial attempts were. They highlight why I ultimately chose local LLMs and refined strategies to achieve more stable, meaningful outcomes.
 
 ---
 
 ## Maintenance & Future Plans
 
-- **Modularize Code:** Split `main.py` into logical modules.
-- **Add Tests:** Improve reliability with unit and integration tests.
-- **Experiment with Models:** Try different local LLMs, tune prompts.
-- **Deployment:** Consider Docker or a reverse proxy for team deployments.
+- **Modularize Code:** Splitting `main.py` into multiple modules would make the code easier to maintain and expand.
+- **Add Tests:** Unit and integration tests can enhance reliability and confidence in the tool’s accuracy.
+- **Experiment with Models:** Trying other local LLMs (e.g., Mistral or LLaMA2 variants) or optimizing embeddings could yield even better insights.
+- **Containerization:** Dockerizing the app or using a reverse proxy might make deployment smoother, especially for team environments.
+- **Extended Documentation:** More examples, benchmarks, and step-by-step guides for customizing or extending the tool are on my to-do list.
 
 ---
 
 ## Troubleshooting
 
 - **Git Authentication:**  
-  Use a Personal Access Token (PAT) instead of a password if you get invalid credentials.
-
+  If you run into credential problems, use a Personal Access Token (PAT) instead of a password.
+  
 - **Ollama Not Responding:**  
-  Check if `ollama serve` is running and reachable via `curl`.
+  Check if `ollama serve` is running and `curl` to confirm connectivity.
 
-- **Model Issues:**  
-  Verify model names with `ollama list`. Pull or rename as needed.
+- **Model Name Issues:**  
+  Make sure `ollama list` matches the model names you’re using in `main.py`.
 
 - **File Parsing Problems:**  
-  Ensure `python-docx` and `PyPDF2` are installed and the files are supported formats.
+  Ensure `python-docx` and `PyPDF2` are installed. Stick to TXT, DOCX, or PDF formats.
 
 - **Slow Performance:**  
-  Try a smaller model or upgrade your hardware.
+  Switch to smaller models or upgrade your hardware. The complexity of the model and the text length can have a big impact on runtime.
 
 ---
 
 ## License
 
-If you plan to share this project publicly, include a LICENSE file (e.g., MIT License) and ensure all dependencies comply with it.
+If you plan to share this project publicly, include a LICENSE file (e.g., MIT License) and ensure compliance with all dependencies’ licenses.
 
 ---
 
-**You’re all set!** Enjoy exploring how news coverage might subtly shape narratives, and feel free to adapt the tool to suit your needs.
-=======
-4. Set environment variables (if needed):
-   ```bash
-   cp .env.example .env
-   ```
-
-5. Run the application:
-   ```bash
-   streamlit run src/main.py
-   ```
-
-   Open the provided URL in your browser.
-
-## Ollama Setup
-
-See `docs/instructions_for_ollama.md` for details.
-
-## Output Structure
-
-- `output/analyses/`: JSON files with analysis results
-- `output/metrics/`: JSON files with metrics history
-
-## Further Development
-
-See code comments and inline documentation.
->>>>>>> d97a892 (Fix folder naming and add evaluation data)
+I hope you enjoy exploring how subtle manipulations and biases can shape news narratives. This tool is my contribution to a more aware media landscape, stemming from my personal journey through my master’s thesis. I encourage you to adapt, extend, and refine it as you see fit!
+```
