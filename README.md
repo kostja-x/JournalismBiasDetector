@@ -37,16 +37,17 @@ Primarily tested on **macOS** (Apple M1 Max, 32 GB RAM), but instructions for Wi
 
 ```
 JournalismBiasDetector/
-├─ README.md          
-├─ requirements.txt
 ├─ docs/
 │  ├─ EVAL_Data
 │  ├─ attachments/
 │  │  └─ 30 x Eval_raw.json
 │  └─ previous_attempts/       
-├─ output_details/
 └─ src/
    ├─ main.py
+├─ .gitignore
+├─ LICENCE
+├─ README.md          
+├─ requirements.txt
 ```
 
 **Note:**  
