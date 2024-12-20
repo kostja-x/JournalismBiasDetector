@@ -177,7 +177,7 @@ cp .env.example .env
 ## Ollama Setup
 
 1. **Install Ollama:**  
-   Refer to [Ollama’s documentation](https://docs.ollama.ai/getting-started).
+   Refer to [Ollama’s documentation](https://github.com/ollama/ollama).
 
 2. **Run Ollama:**
    ```bash

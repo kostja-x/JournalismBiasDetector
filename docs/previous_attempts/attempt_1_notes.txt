@@ -1,1 +1,0 @@
-Attempt 1: Issues with loading local models. Ollama not running at the time.
