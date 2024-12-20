@@ -1,7 +1,6 @@
 
 # JournalismBiasDetector
 
-<<<<<<< HEAD
 **JournalismBiasDetector** project was the practical part of my master's thesis! This tool helps you analyze journalistic texts for various quality aspects, potential manipulation tactics, and underlying bias. It’s designed to be run locally with a Streamlit interface and a local LLM (via Ollama), ensuring you have full control over your data and models..
 
 ## What Does It Do?
@@ -38,24 +37,16 @@ Primarily tested on **macOS** (Apple M1 Max, 32 GB RAM), but instructions for Wi
 
 ```
 JournalismBiasDetector/
-├─ .env.example
 ├─ README.md          
 ├─ requirements.txt
 ├─ docs/
-│  ├─ instructions_for_ollama.md
+│  ├─ EVAL_Data
 │  ├─ attachments/
-│  │  └─ Eval_raw.json (comming soon..)
+│  │  └─ 30 x Eval_raw.json
 │  └─ previous_attempts/       
-│     ├─ comming soon..
-│     └─ ...
 ├─ output_details/
-│  ├─ analyses/
-│  │  ├─ analysis.json (comming soon..)
-│  └─ metrics/
-│     ├─ performance_metrics.json (comming soon..)
 └─ src/
    ├─ main.py
-   └─ (additional modules if needed)
 ```
 
 **Note:**  
