@@ -205,4 +205,3 @@ If you plan to share this project publicly, include a LICENSE file (e.g., MIT Li
 ---
 
 I hope you enjoy exploring how subtle manipulations and biases can shape news narratives. This tool is my contribution to a more aware media landscape, stemming from my personal journey through my master’s thesis. I encourage you to adapt, extend, and refine it as you see fit!
-```
