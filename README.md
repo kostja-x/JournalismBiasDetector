@@ -55,9 +55,8 @@ Running locally means you stay in full control—no calls to external APIs, no d
 JournalismBiasDetector/
 ├─ docs/
 │  ├─ EVAL_Data
-│  ├─ attachments/
 │  │  └─ 30 x Eval_raw.json
-│  └─ previous_attempts/
+│  └─ previous_attempts
 │  └─ analytics_interface_example
 └─ src/
    ├─ main.py
