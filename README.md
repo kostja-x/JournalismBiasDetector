@@ -57,7 +57,8 @@ JournalismBiasDetector/
 │  ├─ EVAL_Data
 │  ├─ attachments/
 │  │  └─ 30 x Eval_raw.json
-│  └─ previous_attempts/       
+│  └─ previous_attempts/
+│  └─ analytics_interface_example
 └─ src/
    ├─ main.py
 ├─ .gitignore
